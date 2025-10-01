@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+langchain
+langchain-community
+openai
+tiktoken
+requests
+beautifulsoup4
+faiss-cpu
+sentence-transformers
+langchain-openai
+python-multipart
+selenium
+webdriver-manager
+groq

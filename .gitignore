@@ -1,0 +1,32 @@
+# OS
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+chatbot_env/
+.venv/
+venv/
+
+# Local configs
+.env
+.env.*
+
+# Data artifacts (generated)
+data/vectorstore/
+data/processed/
+# Large/raw artifacts - keep out of VCS unless needed
+data/raw/transcripts/
+data/raw/clean_blog_data_*.json
+# Runtime state (duplicate registry)
+data/raw/ingested_videos.json
+
+# Node
+node_modules/
+
+# Editor/IDE
+.vscode/
+.idea/

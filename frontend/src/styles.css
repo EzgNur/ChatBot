@@ -1,0 +1,108 @@
+.container{max-width:960px;margin:0 auto;padding:16px;font-family:system-ui,-apple-system,Segoe UI,Roboto}
+.header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+.link{margin-right:12px;text-decoration:none;color:#0366d6}
+.link.active{font-weight:700}
+.list{display:grid;gap:8px}
+.card{border:1px solid #e5e7eb;border-radius:8px;padding:12px;display:flex;align-items:center;justify-content:space-between}
+.row{display:flex;gap:8px;align-items:center}
+.input{padding:8px;border:1px solid #e5e7eb;border-radius:6px}
+.button{padding:8px 12px;border-radius:6px;border:1px solid #d1d5db;background:#111827;color:#fff;cursor:pointer}
+.button.secondary{background:#fff;color:#111827}
+.badge{padding:4px 8px;border-radius:999px;background:#eef2ff;color:#3730a3;font-size:12px}
+.error{color:#b91c1c}
+/* Chatbot Styles */
+.chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.chatbot-header {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  padding: 12px;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.chatbot-header:hover {
+  background: linear-gradient(135deg, #0056b3, #004085);
+}
+
+.chatbot-content {
+  background: white;
+  border: 2px solid #007bff;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.chatbot-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.chatbot-button {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.chatbot-button:hover:not(:disabled) {
+  background: #0056b3;
+}
+
+.chatbot-button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.chatbot-answer {
+  margin: 15px 0;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 1.5;
+  max-height: 300px;
+  overflow-y: auto;
+  border-left: 4px solid #007bff;
+}
+
+.chatbot-sources {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.chatbot-sources ul {
+  padding-left: 20px;
+  margin: 5px 0;
+}
+
+.chatbot-sources li {
+  margin: 5px 0;
+}
+
+.chatbot-sources a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.chatbot-sources a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
