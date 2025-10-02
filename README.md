@@ -76,10 +76,21 @@ python web_scraper.py
 
 ### 2. Vector Store Oluşturma
 
+**ÖNEMLİ:** Vectorstore dosyaları (`data/vectorstore/`) GitHub'da bulunmaz. İlk kurulumda aşağıdaki komutlarla oluşturmanız gerekir:
+
 ```bash
-cd vectorstore
-python build_store.py
+# Vectorstore'u sıfırdan oluştur
+python3 scraping/ingest.py --mode clean --operation rebuild
+
+# Veya mevcut verileri kullanarak güncelle
+python3 scraping/ingest.py --mode clean --operation incremental
 ```
+
+**Vectorstore Oluşturma Seçenekleri:**
+- `--mode clean`: Temiz blog içeriği scraping
+- `--mode sitemap`: Sitemap'ten URL'leri çek
+- `--operation rebuild`: Sıfırdan oluştur
+- `--operation incremental`: Mevcut verileri güncelle
 
 ### 3. Chatbot Test Etme
 
@@ -118,12 +129,30 @@ Varsayılan dev adresi: http://127.0.0.1:5173
 - ✅ Türkçe destekli embedding modeli
 - ✅ FAISS vector database
 - ✅ LangChain RetrievalQA
+- ✅ **Hibrit RAG + LoRA Sistemi** (Eğitilmiş model entegrasyonu)
+- ✅ BM25 + Semantic hibrit arama
 - ✅ FastAPI REST API, sağlık ve metrikler
 - ✅ LiveChat benzeri Home/Chat düzeni, cam efektli header ve geri butonu
 - ✅ Mesaj içi aksiyon butonları (WhatsApp/CRM, şeffaf arka plan + renkli kenarlık)
+
+## Eğitilmiş Model
+
+Bu proje **hibrit RAG + LoRA sistemi** kullanır:
+
+- **RAG (Retrieval-Augmented Generation)**: Vectorstore'dan ilgili bilgileri çeker
+- **LoRA (Low-Rank Adaptation)**: Özel eğitilmiş model ile yanıt üretir
+- **Hibrit Arama**: BM25 + Semantic similarity kombinasyonu
+
+**Eğitilmiş Model Dosyaları:**
+- `trained_rag_lora_model/`: LoRA adaptörü ve tokenizer
+- `data/training/`: Eğitim verileri ve komutlar
+
+**Model Otomatik Yükleme:**
+Sistem başlatıldığında eğitilmiş model otomatik olarak yüklenir ve hibrit yanıtlar üretir.
 
 ## Geliştirme Notları
 
 - Türkçe metinler için `paraphrase-multilingual-MiniLM-L12-v2` embedding modeli
 - Vector store FAISS ile lokal olarak saklanıyor (`data/vectorstore/`)
 - Cevaplarda Almanca terimler ilk geçtiğinde parantez içinde Türkçe karşılığı yazılır
+- Eğitilmiş model `microsoft/DialoGPT-medium` base modeli üzerine LoRA ile fine-tune edilmiştir
