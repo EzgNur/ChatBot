@@ -1,0 +1,54 @@
+# Model Eğitimi Komutları
+# ==================================================
+
+# OPENAI_FINE_TUNING
+# OpenAI Fine-tuning
+openai api fine_tunes.create -t data/training/training_data_20251002_120139.json -m gpt-3.5-turbo --suffix "alternativkraft"
+
+# HUGGINGFACE_LORA
+# Hugging Face LoRA
+python -m transformers.trainer \
+    --model_name_or_path microsoft/DialoGPT-medium \
+    --train_file data/training/training_data_20251002_120139.json \
+    --output_dir ./trained_model \
+    --per_device_train_batch_size 4 \
+    --gradient_accumulation_steps 4 \
+    --num_train_epochs 3 \
+    --learning_rate 5e-5 \
+    --fp16 \
+    --save_steps 500 \
+    --eval_steps 500 \
+    --logging_steps 100
+
+# LOCAL_TRAINING
+# Yerel eğitim (CPU/GPU)
+python -c "
+import torch
+from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments, Trainer
+
+# Model ve tokenizer yükle
+model_name = 'microsoft/DialoGPT-medium'
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForCausalLM.from_pretrained(model_name)
+
+# Eğitim verisi yükle
+with open('data/training/training_data_20251002_120139.json', 'r') as f:
+    data = json.load(f)
+
+# Eğitim başlat
+trainer = Trainer(
+    model=model,
+    train_dataset=data,
+    tokenizer=tokenizer,
+    args=TrainingArguments(
+        output_dir='./trained_model',
+        num_train_epochs=3,
+        per_device_train_batch_size=4,
+        learning_rate=5e-5,
+        save_steps=500,
+        logging_steps=100
+    )
+)
+trainer.train()
+"
+
