@@ -754,31 +754,58 @@ CEVAP:"""
                 try:
                     print("🤖 Eğitilmiş model ile hibrit yanıt üretiliyor...")
                     
-                    # Eğitilmiş model için input hazırla
-                    context_prompt = f"Bağlam: {enhanced_answer}\nSoru: {question}\nYanıt:"
+                    # Eğitilmiş model için input hazırla - daha doğal format
+                    context_prompt = f"Bilgi: {enhanced_answer}\n\nBu bilgilere dayanarak soruyu yanıtla: {question}\n\nYanıt:"
                     
                     inputs = self.trained_tokenizer.encode(
                         f"<|endoftext|>{context_prompt}<|endoftext|>",
-                        return_tensors="pt"
+                        return_tensors="pt",
+                        padding=True,
+                        truncation=True,
+                        max_length=512
                     )
+                    
+                    # Attention mask oluştur
+                    attention_mask = torch.ones_like(inputs)
                     
                     with torch.no_grad():
                         outputs = self.trained_model.generate(
                             inputs,
+                            attention_mask=attention_mask,
                             max_length=inputs.shape[1] + 150,
                             num_return_sequences=1,
                             temperature=0.7,
                             do_sample=True,
-                            pad_token_id=self.trained_tokenizer.eos_token_id
+                            pad_token_id=self.trained_tokenizer.eos_token_id,
+                            eos_token_id=self.trained_tokenizer.eos_token_id
                         )
                     
                     trained_response = self.trained_tokenizer.decode(outputs[0], skip_special_tokens=True)
+                    
+                    # Eğitilmiş model yanıtını al
                     
                     # Eğitilmiş model yanıtını temizle
                     if "Yanıt:" in trained_response:
                         trained_response = trained_response.split("Yanıt:")[-1].strip()
                     
-                    # Hibrit yanıt oluştur
+                    # Soru metnini yanıttan temizle
+                    if question in trained_response:
+                        trained_response = trained_response.replace(question, "").strip()
+                    
+                    # "Bağlam:" ile başlayan kısımları temizle
+                    if "Bağlam:" in trained_response:
+                        trained_response = trained_response.split("Bağlam:")[-1].strip()
+                    
+                    # Kaynak bilgilerini temizle
+                    if "📚 Kaynak:" in trained_response:
+                        trained_response = trained_response.split("📚 Kaynak:")[0].strip()
+                    
+                    # Eğer yanıt çok kısa veya boşsa, GROQ yanıtını kullan
+                    if len(trained_response.strip()) < 50:
+                        print("⚠️ Eğitilmiş model yanıtı çok kısa, GROQ yanıtı kullanılıyor")
+                        trained_response = enhanced_answer
+                    
+                    # Hibrit yanıt oluştur - kaynakları ayrı bölümde
                     hybrid_answer = f"{trained_response}\n\n---\n\n📚 Kaynak: {', '.join([s.get('title', '') for s in sources[:3]])}"
                     
                     return {
