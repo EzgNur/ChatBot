@@ -1,0 +1,163 @@
+{
+  "summary": {
+    "overall_stats": {
+      "total_tests": 3,
+      "successful_tests": 1,
+      "success_rate": 0.3333333333333333,
+      "average_confidence": 0.5022222222222222,
+      "average_response_time": 1.3588035901387532,
+      "total_time": 4.07691216468811
+    },
+    "category_performance": {
+      "Mavi Kart": {
+        "total": 1,
+        "successful": 1,
+        "avg_confidence": 0.6,
+        "avg_context_quality": 1.0,
+        "avg_completeness": 1.0,
+        "success_rate": 1.0
+      },
+      "81A Vizesi": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.48000000000000004,
+        "avg_context_quality": 1.0,
+        "avg_completeness": 0.8,
+        "success_rate": 0.0
+      },
+      "Adres Kaydı": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.4266666666666667,
+        "avg_context_quality": 0.9000000000000001,
+        "avg_completeness": 0.7,
+        "success_rate": 0.0
+      }
+    },
+    "improvement_suggestions": [
+      "URL'ler yanıtlarda eksik - Vectorstore'da URL bilgileri kontrol edin"
+    ]
+  },
+  "detailed_results": [
+    {
+      "question": "AB Mavi Kart için 2025 maaş şartı nedir?",
+      "category": "Mavi Kart",
+      "difficulty": "medium",
+      "test_type": "specific_fact",
+      "response": "AB Mavi Kart (Blaue Karte EU - Mavi Kart) için 2025 yılı itibarıyla yıllık brüt maaş şartı en az 48.300 Euro'dur. Ancak, Almanya'daki bazı \"nitelikli iş gücü açığı\" (bottleneck professions - darboğaz meslekleri) olan sektörlerde, daha düşük bir maaşla da başvuru yapılabilir. Bu sektörlerde maaş limiti 43.759,80 Euro olarak belirlenmiştir. \nŞartlar:\n- Yıllık brüt maaşın en az 48.300 Euro olması gerekmektedir.\n- Bazı sektörlerde, daha düşük bir maaşla da başvuru yapılabilir.\n- Bu sektörlerde maaş limiti 43.759,80 Euro olarak belirlenmiştir.\n- Mavi Kart (§18g) için 2025 yılı itibarıyla en az 4.025 Euro brüt maaş şartı vardır. \nBu koşullar, AB Mavi Kart başvurularında dikkate alınır.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 2.354705810546875,
+      "expected_keywords": [
+        "48.300",
+        "43.759,80",
+        "bottleneck",
+        "nitelikli iş gücü açığı"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanyada-ab-mavi-karti-kriterleri/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "48.300",
+          "43.759,80",
+          "bottleneck",
+          "nitelikli iş gücü açığı"
+        ],
+        "keyword_missed": [],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanyada-ab-mavi-karti-kriterleri/"
+        ],
+        "response_length": 796,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.6,
+        "semantic_matches": [],
+        "context_quality": 1.0,
+        "completeness_score": 1.0
+      },
+      "timestamp": "2025-10-02T10:32:45.929293"
+    },
+    {
+      "question": "81a ön onay vizesi ne işe yarar, süreç adımları nelerdir?",
+      "category": "81A Vizesi",
+      "difficulty": "medium",
+      "test_type": "process_explanation",
+      "response": "81a ön onay vizesi, Almanya'da bir iş teklifi almış nitelikli çalışanların vize sürecini hızlandıran bir mekanizmadır. Normalde uzun sürebilen vize işlemleri, bu prosedür sayesinde ortalama bir iki ay içinde tamamlanabilmektedir. \nSürecin adımları şu şekilde ilerlemektedir:\n- Müşteri, 81a hızlandırılmış ön onay vizesine başvurmayı talep ve kabul ettiğini, bu sözleşmeyi imzalayarak beyan eder.\n- Almanya Yabancılar Dairesi (Ausländerbehörde) tarafından 81a maddesi kapsamında hızlandırılmış ön onay yazısı (Vorabzustimmung) verildikten sonra, Müşteri adına vize süreci başlatılır.\n- Danışman Şirket ve Müşterinin iş sözleşmesi aldığı şirket arasında işbirliği sağlanması karşılıklı mutabakat ve Danışman Şirket ve alt yüklenicilerinin yetkilendirilmesi ile sağlanır.\n- Yetkilendirme için gerekli dokümanlar Danışman Şirket tarafından bilgilendirme yapılır.\nBu süreç, nitelikli iş gücü hızlandırılmış vize prosedüründen yararlanmasını sağlar.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 0.842602014541626,
+      "expected_keywords": [
+        "hızlandırılmış",
+        "81a",
+        "İkamet Yasası",
+        "ön onay"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanya-81a-on-onay/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "hızlandırılmış",
+          "81a",
+          "ön onay"
+        ],
+        "keyword_missed": [
+          "İkamet Yasası"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanya-81a-on-onay/"
+        ],
+        "response_length": 1051,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.48000000000000004,
+        "semantic_matches": [],
+        "context_quality": 1.0,
+        "completeness_score": 0.8
+      },
+      "timestamp": "2025-10-02T10:32:46.772092"
+    },
+    {
+      "question": "Almanya'da Anmeldung için gereken belgeler ve süre nedir?",
+      "category": "Adres Kaydı",
+      "difficulty": "easy",
+      "test_type": "specific_fact",
+      "response": "Almanya'da Anmeldung (adres kaydı) için gereken belgeler ve süre hakkında bilgi vermeden önce, Anmeldung'un önemini vurgulamakta fayda var. Anmeldung, Almanya'da yaşadığınız adresi yetkili makamlara bildirme işlemidir ve bu işlem yasal bir zorunluluktur. Almanya'ya taşındıktan sonraki iki hafta içinde gerçekleştirilmelidir.\n\nAnmeldung için gereken belgeler arasında Wohnungsgeberbestätigung (WGB) (ev sahibi tarafından verilen ikamet belgesi) belgesi bulunur. Müşteri, yerleşeceği konut için ev sahibinden WGB belgesi almakla yükümlüdür. \n\nAnmeldung belgesi (Anmeldebestätigung veya Meldebescheinigung), banka hesabı açmak, oturum izni (Aufenthaltstitel) başvurusu veya uzatması, sağlık sigortası işlemleri gibi birçok resmi işlem için temel bir gerekliliktir. \nBu nedenle, Anmeldung işleminin zamanında ve doğru şekilde gerçekleştirilmesi önemlidir.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 0.8791029453277588,
+      "expected_keywords": [
+        "14 gün",
+        "Wohnungsgeberbestätigung",
+        "Anmeldung"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanyada-yeni-eve-tasinanlar-icin-adres-kaydi-rehberi-anmeldung/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "Wohnungsgeberbestätigung",
+          "Anmeldung"
+        ],
+        "keyword_missed": [
+          "14 gün"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanyada-yeni-eve-tasinanlar-icin-adres-kaydi-rehberi-anmeldung/"
+        ],
+        "response_length": 960,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.4266666666666667,
+        "semantic_matches": [],
+        "context_quality": 0.9000000000000001,
+        "completeness_score": 0.7
+      },
+      "timestamp": "2025-10-02T10:32:47.651367"
+    }
+  ],
+  "test_metadata": {
+    "total_tests": 3,
+    "total_time": 4.07691216468811,
+    "average_response_time": 1.3589707215627034,
+    "timestamp": "2025-10-02T10:32:47.651427"
+  }
+}

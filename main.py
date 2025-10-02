@@ -273,6 +273,17 @@ async def startup_event():
         
         if chatbot.initialize():
             print("✅ GROQ Chatbot başarıyla yüklendi!")
+            
+            # Eğitilmiş modeli yükle
+            model_path = "./trained_rag_lora_model"
+            if os.path.exists(model_path):
+                if chatbot.load_trained_model(model_path):
+                    print("✅ Eğitilmiş model başarıyla yüklendi!")
+                    print("🚀 Hibrit sistem aktif: RAG + Eğitilmiş Model")
+                else:
+                    print("⚠️ Eğitilmiş model yüklenemedi, sadece RAG kullanılacak")
+            else:
+                print("⚠️ Eğitilmiş model bulunamadı, sadece RAG kullanılacak")
         else:
             print("❌ GROQ Chatbot yüklenemedi!")
             

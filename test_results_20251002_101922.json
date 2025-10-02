@@ -1,0 +1,277 @@
+{
+  "summary": {
+    "overall_stats": {
+      "total_tests": 5,
+      "successful_tests": 0,
+      "success_rate": 0.0,
+      "average_confidence": 0.0,
+      "average_response_time": 4.57763671875e-06,
+      "total_time": 7.700920104980469e-05
+    },
+    "category_performance": {
+      "Mavi Kart": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.0,
+        "success_rate": 0.0
+      },
+      "81A Vizesi": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.0,
+        "success_rate": 0.0
+      },
+      "Adres Kaydı": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.0,
+        "success_rate": 0.0
+      },
+      "Yerleşim İzni": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.0,
+        "success_rate": 0.0
+      },
+      "Fırsat Kartı": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.0,
+        "success_rate": 0.0
+      }
+    },
+    "difficulty_performance": {
+      "medium": {
+        "total": 2,
+        "successful": 0,
+        "avg_confidence": 0.0,
+        "success_rate": 0.0
+      },
+      "easy": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.0,
+        "success_rate": 0.0
+      },
+      "hard": {
+        "total": 2,
+        "successful": 0,
+        "avg_confidence": 0.0,
+        "success_rate": 0.0
+      }
+    },
+    "best_performing_tests": [
+      {
+        "question": "AB Mavi Kart için 2025 maaş şartı nedir?",
+        "category": "Mavi Kart",
+        "confidence_score": 0.0
+      },
+      {
+        "question": "81a ön onay vizesi ne işe yarar, süreç adımları nelerdir?",
+        "category": "81A Vizesi",
+        "confidence_score": 0.0
+      },
+      {
+        "question": "Almanya'da Anmeldung için gereken belgeler ve süre nedir?",
+        "category": "Adres Kaydı",
+        "confidence_score": 0.0
+      }
+    ],
+    "worst_performing_tests": [
+      {
+        "question": "AB Mavi Kart için 2025 maaş şartı nedir?",
+        "category": "Mavi Kart",
+        "confidence_score": 0.0
+      },
+      {
+        "question": "81a ön onay vizesi ne işe yarar, süreç adımları nelerdir?",
+        "category": "81A Vizesi",
+        "confidence_score": 0.0
+      },
+      {
+        "question": "Almanya'da Anmeldung için gereken belgeler ve süre nedir?",
+        "category": "Adres Kaydı",
+        "confidence_score": 0.0
+      }
+    ]
+  },
+  "detailed_results": [
+    {
+      "question": "AB Mavi Kart için 2025 maaş şartı nedir?",
+      "category": "Mavi Kart",
+      "difficulty": "medium",
+      "test_type": "specific_fact",
+      "response": "GROQ API anahtarı gerekli. console.groq.com adresinden ücretsiz alabilirsiniz.",
+      "response_time": 1.5974044799804688e-05,
+      "expected_keywords": [
+        "48.300",
+        "43.759,80",
+        "bottleneck",
+        "nitelikli iş gücü açığı"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanyada-ab-mavi-karti-kriterleri/"
+      ],
+      "analysis": {
+        "keyword_matches": [],
+        "keyword_missed": [
+          "48.300",
+          "43.759,80",
+          "bottleneck",
+          "nitelikli iş gücü açığı"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanyada-ab-mavi-karti-kriterleri/"
+        ],
+        "response_length": 78,
+        "has_specific_info": false,
+        "has_urls": false,
+        "confidence_score": 0.0
+      },
+      "timestamp": "2025-10-02T10:19:22.198706"
+    },
+    {
+      "question": "81a ön onay vizesi ne işe yarar, süreç adımları nelerdir?",
+      "category": "81A Vizesi",
+      "difficulty": "medium",
+      "test_type": "process_explanation",
+      "response": "GROQ API anahtarı gerekli. console.groq.com adresinden ücretsiz alabilirsiniz.",
+      "response_time": 3.0994415283203125e-06,
+      "expected_keywords": [
+        "hızlandırılmış",
+        "81a",
+        "İkamet Yasası",
+        "ön onay"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanya-81a-on-onay/"
+      ],
+      "analysis": {
+        "keyword_matches": [],
+        "keyword_missed": [
+          "hızlandırılmış",
+          "81a",
+          "İkamet Yasası",
+          "ön onay"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanya-81a-on-onay/"
+        ],
+        "response_length": 78,
+        "has_specific_info": false,
+        "has_urls": false,
+        "confidence_score": 0.0
+      },
+      "timestamp": "2025-10-02T10:19:22.198724"
+    },
+    {
+      "question": "Almanya'da Anmeldung için gereken belgeler ve süre nedir?",
+      "category": "Adres Kaydı",
+      "difficulty": "easy",
+      "test_type": "specific_fact",
+      "response": "GROQ API anahtarı gerekli. console.groq.com adresinden ücretsiz alabilirsiniz.",
+      "response_time": 1.9073486328125e-06,
+      "expected_keywords": [
+        "14 gün",
+        "Wohnungsgeberbestätigung",
+        "Anmeldung"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanyada-yeni-eve-tasinanlar-icin-adres-kaydi-rehberi-anmeldung/"
+      ],
+      "analysis": {
+        "keyword_matches": [],
+        "keyword_missed": [
+          "14 gün",
+          "Wohnungsgeberbestätigung",
+          "Anmeldung"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanyada-yeni-eve-tasinanlar-icin-adres-kaydi-rehberi-anmeldung/"
+        ],
+        "response_length": 78,
+        "has_specific_info": false,
+        "has_urls": false,
+        "confidence_score": 0.0
+      },
+      "timestamp": "2025-10-02T10:19:22.198733"
+    },
+    {
+      "question": "Yerleşim izni almak için tipik koşullar nelerdir?",
+      "category": "Yerleşim İzni",
+      "difficulty": "hard",
+      "test_type": "comprehensive_requirements",
+      "response": "GROQ API anahtarı gerekli. console.groq.com adresinden ücretsiz alabilirsiniz.",
+      "response_time": 1.1920928955078125e-06,
+      "expected_keywords": [
+        "Niederlassungserlaubnis",
+        "B1",
+        "36 ay",
+        "emeklilik sigortası"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanyada-yerlesim-izni-nasil-alinir-ve-sartlari-nelerdir/"
+      ],
+      "analysis": {
+        "keyword_matches": [],
+        "keyword_missed": [
+          "Niederlassungserlaubnis",
+          "B1",
+          "36 ay",
+          "emeklilik sigortası"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanyada-yerlesim-izni-nasil-alinir-ve-sartlari-nelerdir/"
+        ],
+        "response_length": 78,
+        "has_specific_info": false,
+        "has_urls": false,
+        "confidence_score": 0.0
+      },
+      "timestamp": "2025-10-02T10:19:22.198741"
+    },
+    {
+      "question": "Fırsat Kartı (Chancenkarte) puan sistemi nasıl çalışır?",
+      "category": "Fırsat Kartı",
+      "difficulty": "hard",
+      "test_type": "system_explanation",
+      "response": "GROQ API anahtarı gerekli. console.groq.com adresinden ücretsiz alabilirsiniz.",
+      "response_time": 7.152557373046875e-07,
+      "expected_keywords": [
+        "§20a",
+        "puan",
+        "mesleki yeterlilik"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/firsat-karti-chancenkarte-ile-almanyada-is-arama-puan-sistemi-nasil-calisir/"
+      ],
+      "analysis": {
+        "keyword_matches": [],
+        "keyword_missed": [
+          "§20a",
+          "puan",
+          "mesleki yeterlilik"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/firsat-karti-chancenkarte-ile-almanyada-is-arama-puan-sistemi-nasil-calisir/"
+        ],
+        "response_length": 78,
+        "has_specific_info": false,
+        "has_urls": false,
+        "confidence_score": 0.0
+      },
+      "timestamp": "2025-10-02T10:19:22.198749"
+    }
+  ],
+  "test_metadata": {
+    "total_tests": 5,
+    "total_time": 7.700920104980469e-05,
+    "average_response_time": 1.5401840209960936e-05,
+    "timestamp": "2025-10-02T10:19:22.198766"
+  }
+}

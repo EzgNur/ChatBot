@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Mavi Kart",
+    "question": "AB Mavi Kart için 2025 maaş şartı nedir?",
+    "expected_keywords": ["48.300", "43.759", "bottleneck", "nitelikli"],
+    "expected_urls": ["https://alternativkraft.com/tr/almanyada-ab-mavi-karti-kriterleri/"],
+    "difficulty": "medium",
+    "test_type": "specific_fact"
+  },
+  {
+    "category": "81A Vizesi", 
+    "question": "81a ön onay vizesi ne işe yarar?",
+    "expected_keywords": ["hızlandırılmış", "81a", "ön onay", "vize"],
+    "expected_urls": ["https://alternativkraft.com/tr/almanya-81a-on-onay/"],
+    "difficulty": "medium",
+    "test_type": "process_explanation"
+  },
+  {
+    "category": "Adres Kaydı",
+    "question": "Almanya'da Anmeldung için gereken belgeler nelerdir?",
+    "expected_keywords": ["14 gün", "belgeler", "Anmeldung", "adres"],
+    "expected_urls": ["https://alternativkraft.com/tr/almanyada-yeni-eve-tasinanlar-icin-adres-kaydi-rehberi-anmeldung/"],
+    "difficulty": "easy",
+    "test_type": "specific_fact"
+  }
+]

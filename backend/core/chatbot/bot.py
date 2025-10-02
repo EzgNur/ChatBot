@@ -22,6 +22,15 @@ except ImportError:
     GROQ_AVAILABLE = False
     print("⚠️ GROQ paketi yüklü değil: pip install groq")
 
+try:
+    import torch
+    from transformers import AutoTokenizer, AutoModelForCausalLM
+    from peft import PeftModel
+    TRAINED_MODEL_AVAILABLE = True
+except ImportError:
+    TRAINED_MODEL_AVAILABLE = False
+    print("⚠️ Eğitilmiş model paketleri yüklü değil: pip install torch transformers peft")
+
 class OptimizedChatBot:
     def __init__(self, openai_api_key: Optional[str] = None, model_name: str = "gpt-4o-mini"):
         """
@@ -85,6 +94,11 @@ class FreeChatBot:
         self.vectorstore = None
         self.groq_client = None
         self._bm25_retriever = None
+        
+        # Eğitilmiş model desteği
+        self.trained_model = None
+        self.trained_tokenizer = None
+        self.use_trained_model = False
         
         if self.groq_api_key and GROQ_AVAILABLE:
             self.groq_client = Groq(api_key=self.groq_api_key)
@@ -415,7 +429,71 @@ CEVAP:"""
         
         return {"special_response": False}
 
-    def ask_groq(self, question: str, k_chunks: int = 12, selected_category: str = None) -> Dict:  # 8→12
+    def load_trained_model(self, model_path: str = "./trained_rag_lora_model") -> bool:
+        """Eğitilmiş modeli yükle"""
+        if not TRAINED_MODEL_AVAILABLE:
+            print("⚠️ Eğitilmiş model paketleri yüklü değil")
+            return False
+        
+        try:
+            print("🔄 Eğitilmiş model yükleniyor...")
+            
+            # Tokenizer yükle
+            self.trained_tokenizer = AutoTokenizer.from_pretrained(model_path)
+            
+            # Base model yükle
+            base_model = AutoModelForCausalLM.from_pretrained(
+                "microsoft/DialoGPT-medium",
+                torch_dtype=torch.float32,
+                device_map="cpu"
+            )
+            
+            # LoRA modeli yükle
+            self.trained_model = PeftModel.from_pretrained(base_model, model_path)
+            
+            self.use_trained_model = True
+            print("✅ Eğitilmiş model yüklendi")
+            return True
+            
+        except Exception as e:
+            print(f"❌ Eğitilmiş model yüklenemedi: {e}")
+            return False
+
+    def hybrid_search(self, question: str, k_chunks: int = 10) -> List:
+        """
+        Hibrit arama: BM25 + Semantic similarity
+        """
+        try:
+            # 1. Semantic similarity search
+            semantic_results = self.vectorstore.similarity_search(question, k=k_chunks)
+            
+            # 2. BM25 search (eğer mevcut ise)
+            bm25_results = []
+            try:
+                # BM25 arama için alternatif yöntem
+                bm25_results = self.vectorstore.similarity_search_with_score(question, k=k_chunks)
+                bm25_results = [doc for doc, score in bm25_results if score > 0.7]  # Yüksek skorlu sonuçlar
+            except:
+                pass  # BM25 mevcut değilse sadece semantic kullan
+            
+            # 3. Sonuçları birleştir ve tekrarları kaldır
+            all_results = semantic_results + bm25_results
+            unique_results = []
+            seen_content = set()
+            
+            for doc in all_results:
+                if doc.page_content not in seen_content:
+                    unique_results.append(doc)
+                    seen_content.add(doc.page_content)
+            
+            return unique_results[:k_chunks]
+            
+        except Exception as e:
+            print(f"⚠️ Hibrit arama hatası: {e}")
+            # Fallback: sadece semantic search
+            return self.vectorstore.similarity_search(question, k=k_chunks)
+
+    def ask_groq(self, question: str, k_chunks: int = 10, selected_category: str = None) -> Dict:  # Optimize edilmiş
         """
         GROQ API ile soru sor - kategori odaklı arama desteği
         """
@@ -588,7 +666,8 @@ CEVAP:"""
                     print(f"⚠️ Reranker kullanılamadı: {e}")
                     results = results[: (6 if detail_mode else 4) ]
             except Exception:
-                results = self.vectorstore.similarity_search(question, k=k_chunks)
+                # Hibrit arama kullan (BM25 + Semantic)
+                results = self.hybrid_search(question, k_chunks)
             
             # 2. Context oluştur
             context = "\n\n".join([doc.page_content for doc in results])
@@ -606,7 +685,7 @@ CEVAP:"""
             completion = self.groq_client.chat.completions.create(
                 model=self.model_name,
                 messages=[{"role": "user", "content": prompt}],
-                temperature=0.25 if detail_mode else 0.3,
+                temperature=0.2 if detail_mode else 0.3,  # Daha tutarlı yanıtlar
                 max_tokens=max_tokens,
                 top_p=1,
                 stream=False
@@ -669,6 +748,56 @@ CEVAP:"""
                 ]
             else:
                 action_buttons = special_check.get("action_buttons", [])
+            
+            # Eğitilmiş model varsa hibrit yanıt üret
+            if self.use_trained_model and self.trained_model and self.trained_tokenizer:
+                try:
+                    print("🤖 Eğitilmiş model ile hibrit yanıt üretiliyor...")
+                    
+                    # Eğitilmiş model için input hazırla
+                    context_prompt = f"Bağlam: {enhanced_answer}\nSoru: {question}\nYanıt:"
+                    
+                    inputs = self.trained_tokenizer.encode(
+                        f"<|endoftext|>{context_prompt}<|endoftext|>",
+                        return_tensors="pt"
+                    )
+                    
+                    with torch.no_grad():
+                        outputs = self.trained_model.generate(
+                            inputs,
+                            max_length=inputs.shape[1] + 150,
+                            num_return_sequences=1,
+                            temperature=0.7,
+                            do_sample=True,
+                            pad_token_id=self.trained_tokenizer.eos_token_id
+                        )
+                    
+                    trained_response = self.trained_tokenizer.decode(outputs[0], skip_special_tokens=True)
+                    
+                    # Eğitilmiş model yanıtını temizle
+                    if "Yanıt:" in trained_response:
+                        trained_response = trained_response.split("Yanıt:")[-1].strip()
+                    
+                    # Hibrit yanıt oluştur
+                    hybrid_answer = f"{trained_response}\n\n---\n\n📚 Kaynak: {', '.join([s.get('title', '') for s in sources[:3]])}"
+                    
+                    return {
+                        "answer": hybrid_answer,
+                        "sources": sources,
+                        "source_links": source_links,
+                        "response_time": f"{response_time:.2f}s",
+                        "chunks_used": len(sources),
+                        "timestamp": datetime.now().isoformat(),
+                        "model": f"{self.model_name} + Trained LoRA",
+                        "action_buttons": action_buttons,
+                        "special_response": special_check.get("special_response", False) or no_info,
+                        "special_type": special_check.get("type") if special_check.get("special_response") else ("no_info" if no_info else None)
+                    }
+                    
+                except Exception as e:
+                    print(f"⚠️ Eğitilmiş model hatası: {e}")
+                    # Fallback: normal GROQ yanıtı
+                    pass
             
             return {
                 "answer": enhanced_answer,
@@ -780,7 +909,7 @@ KURALLAR:
 
 CEVAP:"""
 
-    def setup_qa_chain(self, temperature: float = 0.3, k_chunks: int = 4):
+    def setup_qa_chain(self, temperature: float = 0.3, k_chunks: int = 10):
         """
         Optimize edilmiş RetrievalQA chain kurma
         """
@@ -803,12 +932,12 @@ CEVAP:"""
             input_variables=["context", "question"]
         )
         
-        # Optimize edilmiş retriever
+        # Optimize edilmiş retriever - Hibrit arama
         retriever = self.vectorstore.as_retriever(
             search_type="similarity",
             search_kwargs={
-                "k": k_chunks,  # Daha fazla context
-                "fetch_k": k_chunks * 2  # Daha iyi filtreleme
+                "k": k_chunks,  # Daha fazla context (8-12)
+                "fetch_k": k_chunks * 3  # Daha iyi filtreleme
             }
         )
         

@@ -1,38 +1,163 @@
 [
   {
+    "category": "Mavi Kart",
     "question": "AB Mavi Kart için 2025 maaş şartı nedir?",
     "expected_keywords": ["48.300", "43.759,80", "bottleneck", "nitelikli iş gücü açığı"],
-    "expected_urls": ["https://alternativkraft.com/tr/almanyada-ab-mavi-karti-kriterleri/"]
+    "expected_urls": ["https://alternativkraft.com/tr/almanyada-ab-mavi-karti-kriterleri/"],
+    "difficulty": "medium",
+    "test_type": "specific_fact"
   },
   {
+    "category": "81A Vizesi",
     "question": "81a ön onay vizesi ne işe yarar, süreç adımları nelerdir?",
     "expected_keywords": ["hızlandırılmış", "81a", "İkamet Yasası", "ön onay"],
-    "expected_urls": ["https://alternativkraft.com/tr/almanya-81a-on-onay/"]
+    "expected_urls": ["https://alternativkraft.com/tr/almanya-81a-on-onay/"],
+    "difficulty": "medium",
+    "test_type": "process_explanation"
   },
   {
-    "question": "Almanya’da Anmeldung için gereken belgeler ve süre nedir?",
+    "category": "Adres Kaydı",
+    "question": "Almanya'da Anmeldung için gereken belgeler ve süre nedir?",
     "expected_keywords": ["14 gün", "Wohnungsgeberbestätigung", "Anmeldung"],
-    "expected_urls": ["https://alternativkraft.com/tr/almanyada-yeni-eve-tasinanlar-icin-adres-kaydi-rehberi-anmeldung/"]
+    "expected_urls": ["https://alternativkraft.com/tr/almanyada-yeni-eve-tasinanlar-icin-adres-kaydi-rehberi-anmeldung/"],
+    "difficulty": "easy",
+    "test_type": "specific_fact"
   },
   {
+    "category": "Yerleşim İzni",
     "question": "Yerleşim izni almak için tipik koşullar nelerdir?",
     "expected_keywords": ["Niederlassungserlaubnis", "B1", "36 ay", "emeklilik sigortası"],
-    "expected_urls": ["https://alternativkraft.com/tr/almanyada-yerlesim-izni-nasil-alinir-ve-sartlari-nelerdir/"]
+    "expected_urls": ["https://alternativkraft.com/tr/almanyada-yerlesim-izni-nasil-alinir-ve-sartlari-nelerdir/"],
+    "difficulty": "hard",
+    "test_type": "comprehensive_requirements"
   },
   {
+    "category": "Fırsat Kartı",
     "question": "Fırsat Kartı (Chancenkarte) puan sistemi nasıl çalışır?",
     "expected_keywords": ["§20a", "puan", "mesleki yeterlilik"],
-    "expected_urls": ["https://alternativkraft.com/tr/firsat-karti-chancenkarte-ile-almanyada-is-arama-puan-sistemi-nasil-calisir/"]
+    "expected_urls": ["https://alternativkraft.com/tr/firsat-karti-chancenkarte-ile-almanyada-is-arama-puan-sistemi-nasil-calisir/"],
+    "difficulty": "hard",
+    "test_type": "system_explanation"
   },
   {
-    "question": "Niteliksiz işçiler Almanya’da kalıcı ikamet alabilir mi?",
+    "category": "Niteliksiz İşçiler",
+    "question": "Niteliksiz işçiler Almanya'da kalıcı ikamet alabilir mi?",
     "expected_keywords": ["kalıcı ikamet", "A2", "sosyal güvenlik", "çalışma izni"],
-    "expected_urls": ["https://alternativkraft.com/tr/almanyada-niteliksiz-isciler-calisma-izni/"]
+    "expected_urls": ["https://alternativkraft.com/tr/almanyada-niteliksiz-isciler-calisma-izni/"],
+    "difficulty": "medium",
+    "test_type": "eligibility_check"
   },
   {
+    "category": "Profesyonel Sürücüler",
     "question": "Profesyonel sürücüler için 45 yaş üzeri maaş şartı nedir?",
     "expected_keywords": ["53.130", "brüt", "45 yaş"],
-    "expected_urls": ["https://alternativkraft.com/tr/almanyada-profesyonel-sueruecue-olma-rehberi/"]
+    "expected_urls": ["https://alternativkraft.com/tr/almanyada-profesyonel-sueruecue-olma-rehberi/"],
+    "difficulty": "medium",
+    "test_type": "specific_fact"
+  },
+  {
+    "category": "Mülteci Hukuku",
+    "question": "Mülteci statüsü başvuru sürecinde hangi aşamalar var?",
+    "expected_keywords": ["mülteci statüsü", "başvuru süreçleri", "mülakat", "hukuki temsil"],
+    "expected_urls": ["https://alternativkraft.com/service/muelteci-hukuku/"],
+    "difficulty": "hard",
+    "test_type": "process_explanation"
+  },
+  {
+    "category": "81A Ön Onay",
+    "question": "81A ön onaylı çalışma vizesi için gerekli belgeler nelerdir?",
+    "expected_keywords": ["81A", "ön onay", "çalışma vizesi", "gerekli belgeler"],
+    "expected_urls": ["https://alternativkraft.com/service/81a-almanya-oen-onay-vizesi/"],
+    "difficulty": "medium",
+    "test_type": "document_requirements"
+  },
+  {
+    "category": "Profesyonel Sürücü",
+    "question": "Profesyonel sürücü olmak için hangi adımları takip etmeliyim?",
+    "expected_keywords": ["profesyonel sürücü", "adımlar", "süreç", "başvuru"],
+    "expected_urls": ["https://alternativkraft.com/service/profesyonel-sueruecue-olmak/"],
+    "difficulty": "medium",
+    "test_type": "step_by_step_guide"
+  },
+  {
+    "category": "Dil Yeterliliği",
+    "question": "Almanca bilmeden Almanya'ya göç edebilir miyim?",
+    "expected_keywords": ["Almanca", "dil yeterliliği", "göç", "mümkün"],
+    "expected_urls": ["https://alternativkraft.com/tr/almanca-bilmeden-almanyaya-goec-etmek-muemkuen-mue/"],
+    "difficulty": "easy",
+    "test_type": "eligibility_check"
+  },
+  {
+    "category": "Yaş Sınırı",
+    "question": "Almanya'ya göçte yaş sınırı var mı? 45 yaş üzeri için özel şartlar neler?",
+    "expected_keywords": ["yaş sınırı", "45 yaş", "maaş eşiği", "kritik"],
+    "expected_urls": ["https://alternativkraft.com/tr/almanyaya-goecte-yas-siniri-var-mi-45-yas-uezeri-icin-kritik-maas-esigi/"],
+    "difficulty": "medium",
+    "test_type": "age_requirements"
+  },
+  {
+    "category": "Mesleki Eğitim",
+    "question": "Mesleki eğitimi olanlar (ön lisans, meslek lisesi, kalfalık, çıraklık, ustalık belgesi) 16. madde ile Almanya'ya nasıl göç edebilir?",
+    "expected_keywords": ["mesleki eğitim", "16. madde", "ön lisans", "kalfalık", "çıraklık", "ustalık"],
+    "expected_urls": ["https://alternativkraft.com/tr/mesleki-egitimi-olanlar-oenlisans-meslek-lisesi-kalfalik-ciraklik-ustalik-belgesi-16-madde-almanyaya-nasil-goec-edebilir/"],
+    "difficulty": "hard",
+    "test_type": "specific_regulation"
+  },
+  {
+    "category": "Nitelikli Göç",
+    "question": "Almanya'nın yeni nitelikli göç yasası ne getiriyor?",
+    "expected_keywords": ["yeni nitelikli göç yasası", "değişiklikler", "yasa", "nitelikli"],
+    "expected_urls": ["https://alternativkraft.com/tr/almanyanin-yeni-nitelikli-goec-yasasi/"],
+    "difficulty": "medium",
+    "test_type": "legal_changes"
+  },
+  {
+    "category": "Vatandaşlık",
+    "question": "Almanya'da vatandaşlık almanın temel şartları nelerdir?",
+    "expected_keywords": ["vatandaşlık", "temel şartlar", "başvuru süreci", "şartlar"],
+    "expected_urls": ["https://alternativkraft.com/tr/almanyada-vatandaslik-almanin-temel-sartlari-ve-basvuru-suereci-2025/"],
+    "difficulty": "hard",
+    "test_type": "comprehensive_requirements"
+  },
+  {
+    "category": "İltica vs Göç",
+    "question": "2025'te Almanya'ya iltica etmek mi göç etmek mi daha avantajlı?",
+    "expected_keywords": ["iltica", "göç", "2025", "avantaj", "karşılaştırma"],
+    "expected_urls": ["https://alternativkraft.com/tr/2025te-almanyaya-iltica-etmek-mi-goc-etmek-mi/"],
+    "difficulty": "hard",
+    "test_type": "comparison_analysis"
+  },
+  {
+    "category": "Çöp Ayrıştırma",
+    "question": "Almanya'da çöp ayrıştırma kuralları nelerdir? Neyi nereye atmalıyım?",
+    "expected_keywords": ["çöp ayrıştırma", "kurallar", "neresi", "ayrıştırma"],
+    "expected_urls": ["https://alternativkraft.com/tr/almanyada-coep-ayristirma-neyi-nereye-atmali/"],
+    "difficulty": "easy",
+    "test_type": "daily_life"
+  },
+  {
+    "category": "Ehliyet",
+    "question": "Almanya'da araç kullanmak için ehliyet geçerliliği nasıl sağlanır?",
+    "expected_keywords": ["ehliyet", "geçerlilik", "araç kullanmak", "sürücü belgesi"],
+    "expected_urls": ["https://alternativkraft.com/tr/almanyada-arac-kullanmak-icin-ehliyet-gecerliligi/"],
+    "difficulty": "medium",
+    "test_type": "document_validity"
+  },
+  {
+    "category": "Aile Birleşimi",
+    "question": "18 yaş üstü çocuğumu Almanya'ya nasıl getirebilirim?",
+    "expected_keywords": ["18 yaş üstü", "çocuk", "aile birleşimi", "getirme"],
+    "expected_urls": ["https://alternativkraft.com/tr/18-yas-uestue-cocugunuzu-almanyaya-nasil-getirebilirsiniz/"],
+    "difficulty": "hard",
+    "test_type": "family_reunification"
+  },
+  {
+    "category": "Lisans Mezunları",
+    "question": "4 yıllık lisans mezunları için Almanya'da hangi fırsatlar var?",
+    "expected_keywords": ["4 yıllık lisans", "mezunlar", "fırsatlar", "Almanya"],
+    "expected_urls": ["https://alternativkraft.com/tr/4-yillik-lisans-mezunlarina-muejde-almanya-sizi-bekliyor/"],
+    "difficulty": "medium",
+    "test_type": "opportunity_analysis"
   }
 ]
 

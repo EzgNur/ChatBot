@@ -1,0 +1,908 @@
+{
+  "summary": {
+    "overall_stats": {
+      "total_tests": 20,
+      "successful_tests": 0,
+      "success_rate": 0.0,
+      "average_confidence": 0.3825,
+      "average_response_time": 2.784709084033966,
+      "total_time": 55.69475507736206
+    },
+    "category_performance": {
+      "Mavi Kart": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.5,
+        "success_rate": 0.0
+      },
+      "81A Vizesi": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.5,
+        "success_rate": 0.0
+      },
+      "Adres Kaydı": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.3333333333333333,
+        "success_rate": 0.0
+      },
+      "Yerleşim İzni": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.375,
+        "success_rate": 0.0
+      },
+      "Fırsat Kartı": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.16666666666666666,
+        "success_rate": 0.0
+      },
+      "Niteliksiz İşçiler": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.375,
+        "success_rate": 0.0
+      },
+      "Profesyonel Sürücüler": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.5,
+        "success_rate": 0.0
+      },
+      "Mülteci Hukuku": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.125,
+        "success_rate": 0.0
+      },
+      "81A Ön Onay": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.5,
+        "success_rate": 0.0
+      },
+      "Profesyonel Sürücü": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.25,
+        "success_rate": 0.0
+      },
+      "Dil Yeterliliği": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.375,
+        "success_rate": 0.0
+      },
+      "Yaş Sınırı": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.25,
+        "success_rate": 0.0
+      },
+      "Mesleki Eğitim": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.5,
+        "success_rate": 0.0
+      },
+      "Nitelikli Göç": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.5,
+        "success_rate": 0.0
+      },
+      "Vatandaşlık": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.375,
+        "success_rate": 0.0
+      },
+      "İltica vs Göç": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.4,
+        "success_rate": 0.0
+      },
+      "Çöp Ayrıştırma": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.375,
+        "success_rate": 0.0
+      },
+      "Ehliyet": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.25,
+        "success_rate": 0.0
+      },
+      "Aile Birleşimi": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.5,
+        "success_rate": 0.0
+      },
+      "Lisans Mezunları": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.5,
+        "success_rate": 0.0
+      }
+    },
+    "difficulty_performance": {
+      "medium": {
+        "total": 10,
+        "successful": 0,
+        "avg_confidence": 0.4125,
+        "success_rate": 0.0
+      },
+      "easy": {
+        "total": 3,
+        "successful": 0,
+        "avg_confidence": 0.3611111111111111,
+        "success_rate": 0.0
+      },
+      "hard": {
+        "total": 7,
+        "successful": 0,
+        "avg_confidence": 0.3488095238095238,
+        "success_rate": 0.0
+      }
+    },
+    "best_performing_tests": [
+      {
+        "question": "AB Mavi Kart için 2025 maaş şartı nedir?",
+        "category": "Mavi Kart",
+        "confidence_score": 0.5
+      },
+      {
+        "question": "81a ön onay vizesi ne işe yarar, süreç adımları nelerdir?",
+        "category": "81A Vizesi",
+        "confidence_score": 0.5
+      },
+      {
+        "question": "Profesyonel sürücüler için 45 yaş üzeri maaş şartı nedir?",
+        "category": "Profesyonel Sürücüler",
+        "confidence_score": 0.5
+      }
+    ],
+    "worst_performing_tests": [
+      {
+        "question": "Mülteci statüsü başvuru sürecinde hangi aşamalar var?",
+        "category": "Mülteci Hukuku",
+        "confidence_score": 0.125
+      },
+      {
+        "question": "Fırsat Kartı (Chancenkarte) puan sistemi nasıl çalışır?",
+        "category": "Fırsat Kartı",
+        "confidence_score": 0.16666666666666666
+      },
+      {
+        "question": "Profesyonel sürücü olmak için hangi adımları takip etmeliyim?",
+        "category": "Profesyonel Sürücü",
+        "confidence_score": 0.25
+      }
+    ]
+  },
+  "detailed_results": [
+    {
+      "question": "AB Mavi Kart için 2025 maaş şartı nedir?",
+      "category": "Mavi Kart",
+      "difficulty": "medium",
+      "test_type": "specific_fact",
+      "response": "AB Mavi Kart (Blaue Karte EU - Mavi Kart) almak için 2025 yılı itibarıyla, yıllık brüt maaşınızın en az 48.300 Euro olması gerekmektedir. Ancak, bazı sektörlerde daha düşük bir maaşla da başvuru yapılabilir. \nŞartlar:\n- Almanya’daki bazı “nitelikli iş gücü açığı” (bottleneck professions - nitelikli iş gücü açığı) olan sektörlerde, maaş limiti 43.759,80 Euro olarak belirlenmiştir.\n- Mavi Kart (§18g - Mavi Kart) için 2025 yılı itibarıyla en az 4.025 Euro brüt maaş şartı var.\n- §18b kapsamında, sektör bazında belirlenen maaş kriterleri geçerlidir ve bu, bazı meslekler için daha düşük bir maaşla Almanya’da çalışma imkanı sunar.\n- Örneğin, bir Ofis Yöneticisi pozisyonu için minimum brüt maaşın 3.440 Euro olması yeterlidir.\nBu şartlar, AB Mavi Kart başvurularında dikkate alınır.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 2.6580450534820557,
+      "expected_keywords": [
+        "48.300",
+        "43.759,80",
+        "bottleneck",
+        "nitelikli iş gücü açığı"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanyada-ab-mavi-karti-kriterleri/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "48.300",
+          "43.759,80",
+          "bottleneck",
+          "nitelikli iş gücü açığı"
+        ],
+        "keyword_missed": [],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanyada-ab-mavi-karti-kriterleri/"
+        ],
+        "response_length": 891,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.5
+      },
+      "timestamp": "2025-10-02T10:26:17.199946"
+    },
+    {
+      "question": "81a ön onay vizesi ne işe yarar, süreç adımları nelerdir?",
+      "category": "81A Vizesi",
+      "difficulty": "medium",
+      "test_type": "process_explanation",
+      "response": "81a ön onay vizesi, Almanya'da bir iş teklifi almış nitelikli çalışanların vize sürecini hızlandıran bir mekanizmadır. Normalde uzun sürebilen vize işlemleri, bu prosedür sayesinde ortalama bir iki ay içinde tamamlanabilmektedir. \nSürecin adımları şu şekilde ilerlemektedir:\n- Başvurunun onaylanması: Almanya Yabancılar Dairesi (Ausländerbehörde) tarafından 81a maddesi kapsamında hızlandırılmış ön onay yazısı (Vorabzustimmung) verildikten sonra, müşteri adına vize süreci başlatılır.\n- Müşteri, § 81a hızlandırılmış ön onay vizesine başvurmayı talep ve kabul ettiğini, bu sözleşmeyi imzalayarak beyan eder. \n- Müşteri 81a hızlandırılmış ön onay vizesine talip olduğunu, sözleşmeyi imzalayarak talep etmiş sayılır. \n- Danışman Şirket ve Müşterinin iş sözleşmesi aldığı şirket arasında işbirliği sağlanması karşılıklı mutabakat ve Danışman Şirket ve alt yüklenicilerinin yetkilendirilmesi ile sağlanır. \n- Yetkilendirme için gerekli dokümanlar Danışman Şirket tarafından bilgilendirme yapar. \nBu mekanizma, nitelikli iş gücü hızlandırılmış vize prosedüründen yararlanmasını sağlar. \nAlmanya İkamet Yasasının (AufenthG) ilgili maddeleri uyarınca, §16a, §16d, §18a, §18b, §18c fıkra 3, §18g ve §19c fıkra 1,2 maddeleri kapsamında bu prosedürden yararlanılabilir. \n81a ön onay vizesi, nitelikli çalışanların vize sürecini hızlandırarak Almanya'da iş bulmalarını kolaylaştırır.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 1.1433868408203125,
+      "expected_keywords": [
+        "hızlandırılmış",
+        "81a",
+        "İkamet Yasası",
+        "ön onay"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanya-81a-on-onay/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "hızlandırılmış",
+          "81a",
+          "İkamet Yasası",
+          "ön onay"
+        ],
+        "keyword_missed": [],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanya-81a-on-onay/"
+        ],
+        "response_length": 1481,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.5
+      },
+      "timestamp": "2025-10-02T10:26:18.343371"
+    },
+    {
+      "question": "Almanya'da Anmeldung için gereken belgeler ve süre nedir?",
+      "category": "Adres Kaydı",
+      "difficulty": "easy",
+      "test_type": "specific_fact",
+      "response": "Almanya'da Anmeldung (adres kaydı) için gereken belgeler ve süre hakkında bilgi bulunmamaktadır. Ancak Anmeldung (adres kaydı) işleminin Almanya’ya taşınan kişilerin iki hafta içinde gerçekleştirmesi gereken bir yasal zorunluluk olduğu belirtilmektedir. \nAnmeldung (adres kaydı) belgesi (Anmeldebestätigung veya Meldebescheinigung), birçok resmi işlem için temel bir gerekliliktir. \nÖrneğin banka hesabı açmak, oturum izni (Aufenthaltstitel) başvurusu veya uzatması ve sağlık sigortası işlemleri için gereklidir. \nAyrıca ikamet edilecek yerin belirlenmesi ve Wohnungsgeberbestätigung (WGB) (ev sahibi tarafından verilen ikamet belgesi) belgesinin alınması da önemlidir. \nBu belgeler ve süreler hakkında daha detaylı bilgi bulunmamaktadır.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 0.9370708465576172,
+      "expected_keywords": [
+        "14 gün",
+        "Wohnungsgeberbestätigung",
+        "Anmeldung"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanyada-yeni-eve-tasinanlar-icin-adres-kaydi-rehberi-anmeldung/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "Wohnungsgeberbestätigung",
+          "Anmeldung"
+        ],
+        "keyword_missed": [
+          "14 gün"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanyada-yeni-eve-tasinanlar-icin-adres-kaydi-rehberi-anmeldung/"
+        ],
+        "response_length": 846,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.3333333333333333
+      },
+      "timestamp": "2025-10-02T10:26:19.280470"
+    },
+    {
+      "question": "Yerleşim izni almak için tipik koşullar nelerdir?",
+      "category": "Yerleşim İzni",
+      "difficulty": "hard",
+      "test_type": "comprehensive_requirements",
+      "response": "Yerleşim izni (Niederlassungserlaubnis) almak için tipik koşullar arasında en az beş yıl süreyle oturum iznine (Aufenthaltstitel) sahip olmak, 60 ay boyunca emeklilik sigortası primi ödemiş olmak ve B1 seviyesinde Almanca (Almanca) bilmek gibi şartlar yer alır. Bu koşullar, Almanya'da kalıcı bir ikamet statüsü elde etmek isteyen bireyler için geçerlidir. \nAyrıca, Anmeldung (adres kaydı) belgesi, banka hesabı açmak, oturum izni (Aufenthaltstitel) başvurusu veya uzatması ve sağlık sigortası işlemleri için gereklidir. \nBu koşulları yerine getiren kişiler, sınırsız oturum izni (Niederlassungserlaubnis) alabilir ve belirli bir süre veya amaca bağlı olmayan, kalıcı bir ikamet statüsü elde edebilir. \nBu izne sahip kişiler, daha avantajlı bir ikamet statüsüne sahip olurlar. \nYerleşim izni almak için gereken koşullar, bireylerin Almanya'da uzun süreli ikamet etmelerine olanak tanır.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 1.0112290382385254,
+      "expected_keywords": [
+        "Niederlassungserlaubnis",
+        "B1",
+        "36 ay",
+        "emeklilik sigortası"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanyada-yerlesim-izni-nasil-alinir-ve-sartlari-nelerdir/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "Niederlassungserlaubnis",
+          "B1",
+          "emeklilik sigortası"
+        ],
+        "keyword_missed": [
+          "36 ay"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanyada-yerlesim-izni-nasil-alinir-ve-sartlari-nelerdir/"
+        ],
+        "response_length": 994,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.375
+      },
+      "timestamp": "2025-10-02T10:26:20.291720"
+    },
+    {
+      "question": "Fırsat Kartı (Chancenkarte) puan sistemi nasıl çalışır?",
+      "category": "Fırsat Kartı",
+      "difficulty": "hard",
+      "test_type": "system_explanation",
+      "response": "Fırsat Kartı (Chancenkarte) puan sistemi, nitelikli bireylerin Almanya'ya gelip iş aramalarına olanak tanıyan bir sistemdir. Bu sistem, başvuru sahiplerinin niteliklerini adil ve şeffaf bir şekilde değerlendirmek amacıyla uygulanır. Başvurunun kabul edilebilmesi için en az 6 puan toplamak gereklidir. Puanlar, dil becerileri, mesleki deneyim, yaş ve Almanya ile bağlantılar gibi kriterlere göre verilir.\n\nFırsat Kartı puan sisteminin kriterleri şöyledir:\nKriterler ve puanları şu şekildedir: \n- Dil becerileri\n- Mesleki deneyim\n- Yaş\n- Almanya ile bağlantılar\n\nBu kriterlere göre puan toplayan kişiler, bir yıla kadar geçerli Fırsat Kartı ile Almanya'da iş arayabilir ve haftada 20 saate kadar deneme amaçlı çalışabilirler. Fırsat Kartı, Mart 2024'ten itibaren yürürlüğe giren bir sistemdir.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 0.8232300281524658,
+      "expected_keywords": [
+        "§20a",
+        "puan",
+        "mesleki yeterlilik"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/firsat-karti-chancenkarte-ile-almanyada-is-arama-puan-sistemi-nasil-calisir/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "puan"
+        ],
+        "keyword_missed": [
+          "§20a",
+          "mesleki yeterlilik"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/firsat-karti-chancenkarte-ile-almanyada-is-arama-puan-sistemi-nasil-calisir/"
+        ],
+        "response_length": 900,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.16666666666666666
+      },
+      "timestamp": "2025-10-02T10:26:21.114982"
+    },
+    {
+      "question": "Niteliksiz işçiler Almanya'da kalıcı ikamet alabilir mi?",
+      "category": "Niteliksiz İşçiler",
+      "difficulty": "medium",
+      "test_type": "eligibility_check",
+      "response": "Niteliksiz işçiler Almanya'da kalıcı ikamet alabilir. Niteliksiz işçi, üretim, lojistik, temizlik veya hizmet sektörlerinde, belirli bir mesleki eğitim veya nitelik gerektirmeyen işlerde çalışan kişiyi ifade eder. Doğru hazırlık, yasal çalışma, sağlam Almanca dil becerileri ve sosyal güvenlik sistemine katkılar sayesinde Almanya'da uzun vadeli bir gelecek inşa edilebilir. \nNiteliksiz işçiler için kalıcı ikamet ve çalışma izni almak mümkün olmakla birlikte, belirli şartları yerine getirmeleri gerekir. \nŞartlar:\n1. Yasal çalışma: Niteliksiz işçiler, yasal olarak çalışıyor olmalı ve sosyal güvenlik sistemine katkıda bulunmalıdır.\n2. Almanca dil becerileri: Niteliksiz işçiler, sağlam Almanca dil becerilerine sahip olmalıdır.\n3. Geçici çalışma izni: Niteliksiz işçiler, ilk adım olarak geçici çalışma izni almalıdır.\n4. İkamet izni: Niteliksiz işçiler, ikamet izni (Aufenthaltstitel) almak için başvuruda bulunmalıdır.\n5. Yerleşim izni: Niteliksiz işçiler, belirli bir süre sonra yerleşim izni (Niederlassungserlaubnis) almak için başvuruda bulunabilir.\nNiteliksiz işçiler, bu şartları yerine getirdiklerinde, kalıcı ikamet ve çalışma izni alabilir ve Almanya'da uzun vadeli bir gelecek inşa edebilir.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 1.0908832550048828,
+      "expected_keywords": [
+        "kalıcı ikamet",
+        "A2",
+        "sosyal güvenlik",
+        "çalışma izni"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanyada-niteliksiz-isciler-calisma-izni/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "kalıcı ikamet",
+          "sosyal güvenlik",
+          "çalışma izni"
+        ],
+        "keyword_missed": [
+          "A2"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanyada-niteliksiz-isciler-calisma-izni/"
+        ],
+        "response_length": 1314,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.375
+      },
+      "timestamp": "2025-10-02T10:26:22.205901"
+    },
+    {
+      "question": "Profesyonel sürücüler için 45 yaş üzeri maaş şartı nedir?",
+      "category": "Profesyonel Sürücüler",
+      "difficulty": "medium",
+      "test_type": "specific_fact",
+      "response": "Profesyonel sürücüler için 45 yaş üzeri maaş şartı, yıllık brüt 53.130 Euro olarak belirlenmiştir. Bu, aylık olarak brüt 4.427,50 Euro maaş anlamına gelir. Almanya’daki maaşınız düşük seviyede ise, maaşınızın üstüne Türkiye’deki emeklilik, kira vb. gelirleriniz ile aylık brüt 4.427,50 Euro tamamlanmalıdır. \nBu kritik eşik, 45 yaş ve üzeri nitelikli profesyonellerin çalışma izni alabilmesini, belirli bir asgari gelir düzeyini kanıtlamalarına bağlamıştır. \nBu rakamı karşılayan bir iş sözleşmesi sunabilen 45 yaş üstü bireyler, diğer yasal gereklilikleri de yerine getirdikleri takdirde Almanya’da çalışma ve oturma izni başvurusunda bulunabilirler. \nBu koşulları sağlamanız halinde İkamet Yasası’nın §19c maddesi ile Almanya’da oturum izni alabilirsiniz. \nÖzetle, 45 yaş üzeri profesyonel sürücülerin Almanya’da yıllık maaşı brüt 53.130 Euro olmalıdır.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 0.8018386363983154,
+      "expected_keywords": [
+        "53.130",
+        "brüt",
+        "45 yaş"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanyada-profesyonel-sueruecue-olma-rehberi/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "53.130",
+          "brüt",
+          "45 yaş"
+        ],
+        "keyword_missed": [],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanyada-profesyonel-sueruecue-olma-rehberi/"
+        ],
+        "response_length": 963,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.5
+      },
+      "timestamp": "2025-10-02T10:26:23.007788"
+    },
+    {
+      "question": "Mülteci statüsü başvuru sürecinde hangi aşamalar var?",
+      "category": "Mülteci Hukuku",
+      "difficulty": "hard",
+      "test_type": "process_explanation",
+      "response": "Mülteci statüsü başvuru sürecinde, başvuru sahipleri genellikle uzun ve zorlu bir yolculuk geçirirler. Başvuru sürecinde, ilk olarak yetkinliklerinizin tanınmasını istediğiniz alanı seçmelisiniz. Daha sonra, başvuru sürecinde size rehberlik edecek ve mesleki deneyimlerinizi belgelemeye yardımcı olacak yetkili bir yetkinlik değerlendirme merkezi ile iletişime geçmelisiniz. \nAşağıdaki adımlar mülteci statüsü başvuru sürecinde önemli aşamaları oluşturur:\n- Hukuki başvuru dilekçesinin hazırlanması: Toplanan tüm deliller ışığında, Müşteri'nin durumunu hukuki bir argümantasyonla açıklayan, hangi yasa maddesine istinaden başvuru yapıldığını belirten ve hukuki mütalaa niteliğinde olan profesyonel başvuru dilekçesi, Danışman Şirket'in anlaşmalı avukatı tarafından hazırlanır.\n- İltica başvurunun geri çekilmesine ilişkin stratejik uygulama: Böyle bir talep, başvuru sürecinde yetkili kurum tarafından iletilir ve Danışmanlık Şirketi bu durumu derhal Müşteri'ye bildirir.\nBu aşamalar, mülteci statüsü başvuru sürecinin temel bileşenlerini oluşturur.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 0.9698700904846191,
+      "expected_keywords": [
+        "mülteci statüsü",
+        "başvuru süreçleri",
+        "mülakat",
+        "hukuki temsil"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/service/muelteci-hukuku/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "mülteci statüsü"
+        ],
+        "keyword_missed": [
+          "başvuru süreçleri",
+          "mülakat",
+          "hukuki temsil"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/service/muelteci-hukuku/"
+        ],
+        "response_length": 1157,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.125
+      },
+      "timestamp": "2025-10-02T10:26:23.977696"
+    },
+    {
+      "question": "81A ön onaylı çalışma vizesi için gerekli belgeler nelerdir?",
+      "category": "81A Ön Onay",
+      "difficulty": "medium",
+      "test_type": "document_requirements",
+      "response": "81A ön onaylı çalışma vizesi için gerekli belgeler, eğitim veya ehliyet şartını karşılayan belgelerden oluşur. \nBu belgeler veya ehliyetler, çalışma vizesi başvurularında önemli bir rol oynar. \n81a hızlandırılmış ön onay vizesine başvuruda bulunmak isteyen müşterilerin, danışman şirket ve müşteri arasındaki iş sözleşmesi ile işbirliği sağlanması gerekmektedir. \nBu işbirliği, danışman şirket ve alt yüklenicilerinin yetkilendirilmesini de içermektedir. \nYetkilendirme için gerekli dokümanlar, danışman şirket tarafından sağlanır. \nHizmetin başlangıcında, genel bilgilendirme görüşmesi yapılır ve müşteri, ikamet yasası §81a hızlandırılmış ön onay vizesine başvurmayı talep ve kabul ettiğini, işbu ekin ayrılmaz bir parçası olan Danışmanlık Hizmet Sözleşmesini imzalayarak beyan eder. \nBu belgelerin ve ehliyetlerin tam ve doğru bir şekilde sağlanması, 81A ön onaylı çalışma vizesi başvurularının başarılı bir şekilde sonuçlandırılması için önemlidir. \nBu nedenle, müşterilerin danışman şirket ile işbirliği içinde gerekli belgeleri ve ehliyetleri sağlaması gerekir.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 1.0376369953155518,
+      "expected_keywords": [
+        "81A",
+        "ön onay",
+        "çalışma vizesi",
+        "gerekli belgeler"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/service/81a-almanya-oen-onay-vizesi/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "81A",
+          "ön onay",
+          "çalışma vizesi",
+          "gerekli belgeler"
+        ],
+        "keyword_missed": [],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/service/81a-almanya-oen-onay-vizesi/"
+        ],
+        "response_length": 1175,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.5
+      },
+      "timestamp": "2025-10-02T10:26:25.015358"
+    },
+    {
+      "question": "Profesyonel sürücü olmak için hangi adımları takip etmeliyim?",
+      "category": "Profesyonel Sürücü",
+      "difficulty": "medium",
+      "test_type": "step_by_step_guide",
+      "response": "Almanya'da profesyonel sürücü (Berufskraftfahrer) olmak için belirli adımları takip etmeniz gerekir. İlk olarak, mevcut yabancı sürücü belgenizi Alman sürücü belgesi (Führerschein) ile değiştirme (Umschreibung) yükümlülüğünü kabul etmelisiniz. Ehliyet değişimi işlemlerine bağlı masraflar, danışmanlık hizmet bedeline dahil değildir.\n\nAyrıca, diplomanız için resmi bir denklik prosedüründen (Anerkennungsverfahren) geçmeniz gerekir. Bu denklik, AB Mavi Kart veya Nitelikli Profesyoneller için Çalışma Vizesi gibi belirli oturum izinleri için de bir ön koşuldur.\n\nProfesyonel sürücü olmak isteyenler için aşağıdaki adımlar takip edilmelidir:\nŞartlar:\n- Almanca B1 sertifikası hakkı kazanmak üzere dil kursuna ön kayıt belgesi alınması gerekir.\n- Profesyonel sürücü olarak ehliyetini değiştireceğine (Umschreibung) dair bir ehliyet kursu kaydı yaptırılması gerekir.\n- Kişi ve ailesinin minimum dil koşullarını karşılaması gerekir.\n- Mevcut yabancı sürücü belgesini Alman sürücü belgesi (Führerschein) ile değiştirme (Umschreibung) yükümlülüğünü kabul etmek gerekir.\n\nBu adımları takip ederek, Almanya'da profesyonel sürücü olma rehberine uyabilirsiniz.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 1.0645999908447266,
+      "expected_keywords": [
+        "profesyonel sürücü",
+        "adımlar",
+        "süreç",
+        "başvuru"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/service/profesyonel-sueruecue-olmak/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "profesyonel sürücü",
+          "adımlar"
+        ],
+        "keyword_missed": [
+          "süreç",
+          "başvuru"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/service/profesyonel-sueruecue-olmak/"
+        ],
+        "response_length": 1258,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.25
+      },
+      "timestamp": "2025-10-02T10:26:26.079977"
+    },
+    {
+      "question": "Almanca bilmeden Almanya'ya göç edebilir miyim?",
+      "category": "Dil Yeterliliği",
+      "difficulty": "easy",
+      "test_type": "eligibility_check",
+      "response": "Almanca bilmeden Almanya'ya göç etmek mümkün olsa da, bu durum birçok zorluğu beraberinde getiriyor. Özellikle bazı çalışma vizelerinde Almanca şartı olmasa da, dil öğrenmenin gereksiz olduğunu düşünmek büyük bir yanılgı. Vize almak ve iş bulmak ayrı süreçler ve Almanca bilmeden iş bulmak oldukça zor. \nŞartlar:\n1. Kalıcı ikamet izni aldıktan sonra aile birleşimi için başvuruda bulunabilirsin.\n2. Eşin ve çocukların Almanya'ya gelmesini sağlayabilirsin.\n3. Bu aşamada da Almanca dil becerileri ve gelir durumun önemli rol oynayacaktır.\n4. Niteliksiz işçiler için iş fırsatları sınırlıdır.\n5. Almanca bilmeyenlerin iş bulma şansı daha düşük olabilir.\nAlmanca bilmeden Almanya'ya göç etmek ve iş bulmak oldukça zorlu bir süreç olabilir, bu nedenle dil öğrenmek büyük avantaj sağlayacaktır.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 0.9984230995178223,
+      "expected_keywords": [
+        "Almanca",
+        "dil yeterliliği",
+        "göç",
+        "mümkün"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanca-bilmeden-almanyaya-goec-etmek-muemkuen-mue/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "Almanca",
+          "göç",
+          "mümkün"
+        ],
+        "keyword_missed": [
+          "dil yeterliliği"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanca-bilmeden-almanyaya-goec-etmek-muemkuen-mue/"
+        ],
+        "response_length": 897,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.375
+      },
+      "timestamp": "2025-10-02T10:26:27.078419"
+    },
+    {
+      "question": "Almanya'ya göçte yaş sınırı var mı? 45 yaş üzeri için özel şartlar neler?",
+      "category": "Yaş Sınırı",
+      "difficulty": "medium",
+      "test_type": "age_requirements",
+      "response": "Almanya'ya göçte yaş sınırı bulunmuyor. Ancak yaş faktörü, göç başvurularında önemli bir etken olabilir. 45 yaşının altındaki başvuru sahipleri için maaş şartı, Almanya İş Ajansı (Agentur für Arbeit) tarafından Entgeltatlas sayfasında belirlenen maaşlarla uyumlu olmalıdır. \n45 yaş ve üzerindeki başvuru sahipleri için ise bazı ek şartlar getirilebiliyor. \nBu yaş grubundaki kişilerin maaşlarının belirli bir minimum seviyenin (4427,50 Euro brüt) üzerinde olması gerekebiliyor. \nAyrıca emeklilik geliri, kira geliri gibi farklı gelir kaynakları beyan edilerek bu şart esnetilebiliyor. \nÖzetle, 45 yaş üzeri için özel şartlar arasında maaşın minimum seviyeyi aşması ve emeklilik sisteminin sürdürülebilirliğine katkıda bulunması yer alıyor. \nBu nedenle, 45 yaş üzeri kişiler göç başvurularında daha dikkatli olmak zorunda kalabilirler. \nAlmanya'ya göçte yaş sınırı olmamasına rağmen, 45 yaş üzeri için getirilen özel şartlar göç başvurularını etkileyebilir.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 0.9476730823516846,
+      "expected_keywords": [
+        "yaş sınırı",
+        "45 yaş",
+        "maaş eşiği",
+        "kritik"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanyaya-goecte-yas-siniri-var-mi-45-yas-uezeri-icin-kritik-maas-esigi/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "yaş sınırı",
+          "45 yaş"
+        ],
+        "keyword_missed": [
+          "maaş eşiği",
+          "kritik"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanyaya-goecte-yas-siniri-var-mi-45-yas-uezeri-icin-kritik-maas-esigi/"
+        ],
+        "response_length": 1064,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.25
+      },
+      "timestamp": "2025-10-02T10:26:28.026110"
+    },
+    {
+      "question": "Mesleki eğitimi olanlar (ön lisans, meslek lisesi, kalfalık, çıraklık, ustalık belgesi) 16. madde ile Almanya'ya nasıl göç edebilir?",
+      "category": "Mesleki Eğitim",
+      "difficulty": "hard",
+      "test_type": "specific_regulation",
+      "response": "Mesleki eğitimi olanlar, ön lisans, meslek lisesi, kalfalık, çıraklık, ustalık belgesi gibi belgeleri 16. madde kapsamında Almanya'ya göç etmek için çeşitli fırsatlar bulabilirler. \n29 Mart 2023'ten önce Almanya'ya gelen ve ilticası devam eden mülteciler, lisans, ön lisans, meslek lisesi diploması veya 16. maddeden ustalık, kalfalık, çıraklık belgesine sahip olanlar ve eğitimlerine uygun iş sözleşmesi olanlar, Yabancılar Dairesine başvurup çalışma yoluyla oturum alma şansları vardır. \nAyrıca, Almanya'da meslek eğitimi alan veya eğitimi tamamlamış mülteciler de oturum alabilirler. \nMesleki deneyime sahip nitelikli çalışanlar, üniversite diploması yerine en az iki yıllık mesleki eğitimi ve belirli bir iş deneyimi olan kişiler, diplomalarının Almanya'da resmi olarak tanınması şartıyla çalışma vizesi alabilirler. \nBazı durumlarda, denklik süreci Almanya'da çalışmaya başladıktan sonra da tamamlanabilir (Anerkennungspartnerschaft - tanınma ortaklığı). \nBu şekilde, mesleki eğitimi olanlar 16. madde ile Almanya'ya göç edebilirler.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 2.051387071609497,
+      "expected_keywords": [
+        "mesleki eğitim",
+        "16. madde",
+        "ön lisans",
+        "kalfalık",
+        "çıraklık",
+        "ustalık"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/mesleki-egitimi-olanlar-oenlisans-meslek-lisesi-kalfalik-ciraklik-ustalik-belgesi-16-madde-almanyaya-nasil-goec-edebilir/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "mesleki eğitim",
+          "16. madde",
+          "ön lisans",
+          "kalfalık",
+          "çıraklık",
+          "ustalık"
+        ],
+        "keyword_missed": [],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/mesleki-egitimi-olanlar-oenlisans-meslek-lisesi-kalfalik-ciraklik-ustalik-belgesi-16-madde-almanyaya-nasil-goec-edebilir/"
+        ],
+        "response_length": 1146,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.5
+      },
+      "timestamp": "2025-10-02T10:26:30.077522"
+    },
+    {
+      "question": "Almanya'nın yeni nitelikli göç yasası ne getiriyor?",
+      "category": "Nitelikli Göç",
+      "difficulty": "medium",
+      "test_type": "legal_changes",
+      "response": "Almanya'nın yeni nitelikli göç yasası, özellikle belirli sektörlerde kalifiye eleman eksikliği ile karşı karşıya olan Almanya ekonomisinin rekabet gücünü artırmak için tasarlandı. Bu yasa, Avrupa Birliği (AB) dışından gelen nitelikli iş gücünün Almanya iş piyasasına erişimini kolaylaştırmayı amaçlıyor. \nYasanın temel amaçları arasında, kalifiye eleman açığını kapatmak ve ülkenin ekonomik fırsatlarını artırmak yer alıyor. \nÖnemli Değişiklikler ve Detaylar:\nAlmanya, sunduğu ekonomik fırsatlar ve yüksek yaşam standartları ile birçok kişinin hayallerini süsleyen bir ülke. \nAncak Almanya’ya göç etme yolları arasında ciddi farklılıklar bulunuyor ve bu yolların en zoru hiç şüphesiz iltica süreci. \n81a ön onay vizesi, Almanya’ya nitelikli göç sürecini önemli ölçüde basitleştiren ve hızlandıran modern bir yasal araçtır. \nDoğru bir planlama ve işverenle kurulacak güçlü bir iş birliği sayesinde, kalifiye profesyoneller ve aileleri için Almanya’da yeni bir kariyere başlamanın en etkili yollarından birini sunmaktadır. \nBu yeni yasa, kalifiye eleman eksikliğini gidermek ve ülkenin ekonomik büyümesini desteklemek için önemli bir adım olarak görülüyor.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 4.985525846481323,
+      "expected_keywords": [
+        "yeni nitelikli göç yasası",
+        "değişiklikler",
+        "yasa",
+        "nitelikli"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanyanin-yeni-nitelikli-goec-yasasi/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "yeni nitelikli göç yasası",
+          "değişiklikler",
+          "yasa",
+          "nitelikli"
+        ],
+        "keyword_missed": [],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanyanin-yeni-nitelikli-goec-yasasi/"
+        ],
+        "response_length": 1262,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.5
+      },
+      "timestamp": "2025-10-02T10:26:35.063075"
+    },
+    {
+      "question": "Almanya'da vatandaşlık almanın temel şartları nelerdir?",
+      "category": "Vatandaşlık",
+      "difficulty": "hard",
+      "test_type": "comprehensive_requirements",
+      "response": "Almanya'da vatandaşlık almanın temel şartları, belirli koşulları sağlayan bireyler için vatandaşlık sürecini daha erişilebilir hale getirmiştir. \nŞartlar:\n- 7. Anayasal Düzen: Başvuru sahibi, Almanya’nın demokratik anayasal düzenine karşı olmaması ve anayasal düzene aykırı faaliyetlerde bulunmaması en önemli şartlardan bir tanesidir.\n- Yasal şartları tamamlamak: Suriyeliler gibi bazı menşe ülkelerinden gelen kişiler, yasal şartları tamamlar tamamlamaz başvuru yapmaya devam ediyor.\n- İkamet koşullarını sağlamak: Başvuru sahiplerinin belirli bir süre Almanya'da ikamet etmiş olması gerekiyor.\n- Dil bilgisi: Başvuru sahiplerinin Almanca dil bilgisine sahip olması bekleniyor.\n- Geçimini sağlayabilme: Başvuru sahiplerinin kendilerini ve ailelerini geçindirebilecek ekonomik güce sahip olması gerekiyor.\n- Suç kaydı olmama: Başvuru sahiplerinin herhangi bir suç kaydının olmaması gerekiyor.\nAlmanya'da vatandaşlık almanın temel şartları, yukarıda belirtilen koşulları içermektedir.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 6.615078926086426,
+      "expected_keywords": [
+        "vatandaşlık",
+        "temel şartlar",
+        "başvuru süreci",
+        "şartlar"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanyada-vatandaslik-almanin-temel-sartlari-ve-basvuru-suereci-2025/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "vatandaşlık",
+          "temel şartlar",
+          "şartlar"
+        ],
+        "keyword_missed": [
+          "başvuru süreci"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanyada-vatandaslik-almanin-temel-sartlari-ve-basvuru-suereci-2025/"
+        ],
+        "response_length": 1092,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.375
+      },
+      "timestamp": "2025-10-02T10:26:41.678180"
+    },
+    {
+      "question": "2025'te Almanya'ya iltica etmek mi göç etmek mi daha avantajlı?",
+      "category": "İltica vs Göç",
+      "difficulty": "hard",
+      "test_type": "comparison_analysis",
+      "response": "2025'te Almanya'ya iltica etmek mi göç etmek mi daha avantajlı sorusuna cevap verebilmek için, her iki seçeneğin de avantaj ve dezavantajlarını değerlendirmek gerekiyor. \n\nİltica etmek, genellikle savaş, zulüm veya doğal afetler gibi nedenlerle bir kişinin kendi ülkesini terk etmek zorunda kalması anlamına gelir. Bu durum, kişinin hakları ve statüsü açısından belirli yasal süreçleri içerir. \nGöç etmek ise, genellikle ekonomik, eğitim veya aile birleşimi gibi nedenlerle bir kişinin kendi ülkesini terk etmesi ve başka bir ülkeye yerleşmesidir. Almanya'ya göç etmek isteyenler, genellikle 81a Ön Onay Vizesi gibi hızlandırılmış yollara başvurabilirler. \n\nŞartlar:\n- Dil bilgisi: Almanya'ya göç etmek isteyenlerin genellikle Almanca bilmeleri beklenir, ancak bazı çalışma vizelerinde Almanca şartı olmayabilir.\n- Eğitim ve meslek: Nitelikli göçmenlerin genellikle belirli bir eğitim seviyesine veya mesleki deneyime sahip olmaları gerekir.\n- Vize ve ikamet izni: Göçmenlerin vize ve ikamet izni alması gerekir.\n- İş bulma: Vize almak ve iş bulmak ayrı süreçlerdir, bu nedenle göçmenlerin iş bulma konusunda da çaba sarf etmeleri gerekir.\n- Entegrasyon: Göçmenlerin Alman toplumuna entegre olmaları ve dil öğrenmeleri beklenir.\n\nSonuç olarak, 2025'te Almanya'ya iltica etmek mi göç etmek mi daha avantajlı sorusunun cevabı, bireyin kişisel durumuna, nedenlerine ve hedeflerine bağlıdır. Her iki seçeneğin de avantaj ve dezavantajları vardır ve bireyin bu seçenekleri dikkatlice değerlendirmesi gerekir.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 4.792564868927002,
+      "expected_keywords": [
+        "iltica",
+        "göç",
+        "2025",
+        "avantaj",
+        "karşılaştırma"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/2025te-almanyaya-iltica-etmek-mi-goc-etmek-mi/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "iltica",
+          "göç",
+          "2025",
+          "avantaj"
+        ],
+        "keyword_missed": [
+          "karşılaştırma"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/2025te-almanyaya-iltica-etmek-mi-goc-etmek-mi/"
+        ],
+        "response_length": 1611,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.4
+      },
+      "timestamp": "2025-10-02T10:26:46.470767"
+    },
+    {
+      "question": "Almanya'da çöp ayrıştırma kuralları nelerdir? Neyi nereye atmalıyım?",
+      "category": "Çöp Ayrıştırma",
+      "difficulty": "easy",
+      "test_type": "daily_life",
+      "response": "Almanya'da çöp ayrıştırma kuralları oldukça önemlidir ve uyulması gereken bazı temel noktalar vardır. \nAlmanya'da çöp ayrıştırmak, her hanenin sorumluluğundadır ve doğru çöp kutularına atılması büyük önem taşıyor. \nAyrıca, yanlış çöp ayırma idari bir suçtur ve yakalanmanız durumunda birkaç yüz hatta binlerce avroya varan para cezalarıyla karşılaşabilirsiniz. \nKurallara uymazsanız, ev sahibiniz size uyarı verebilir, yanlış ayrıştırmadan kaynaklanan masrafları size fatura edebilir ve hatta evinizi kaybedebilirsiniz. \nKendi eviniz varsa, yanlış ayırma atık bertaraf faturanızın artmasına neden olur. \nBu nedenle, çöp ayrıştırma kurallarına uymak hem cüzdanınız hem de çevresel faydalar için büyük önem taşımaktadır. \nAlmanya'da çöp ayrıştırma, kaynakların korunmasına yardımcı oluyor ve atık oluşumunu en aza indirmeyi hedefliyor. \nBu sistem, dünya şampiyonlarından biri olarak kabul ediliyor. \nBu nedenle, çöp ayrıştırma kurallarına uymak için necessary bilgiler edinmeli ve uygulamalısınız. \nAlmanya'da çöp ayrıştırma kurallarına uymak için, doğru çöp kutularını kullanmalı ve her hanenin sorumluluğunda olan bu görevi yerine getirmelisiniz.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 6.739182949066162,
+      "expected_keywords": [
+        "çöp ayrıştırma",
+        "kurallar",
+        "neresi",
+        "ayrıştırma"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanyada-coep-ayristirma-neyi-nereye-atmali/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "çöp ayrıştırma",
+          "kurallar",
+          "ayrıştırma"
+        ],
+        "keyword_missed": [
+          "neresi"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanyada-coep-ayristirma-neyi-nereye-atmali/"
+        ],
+        "response_length": 1254,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.375
+      },
+      "timestamp": "2025-10-02T10:26:53.209975"
+    },
+    {
+      "question": "Almanya'da araç kullanmak için ehliyet geçerliliği nasıl sağlanır?",
+      "category": "Ehliyet",
+      "difficulty": "medium",
+      "test_type": "document_validity",
+      "response": "Almanya'da araç kullanmak için ehliyet geçerliliği sağlamak önemlidir. Ehliyetinizi zamanında çevirmezseniz, ehliyetsiz araç kullanma durumuna düşersiniz ve bu ciddi yasal sonuçlar doğurabilir. \nAğır vasıta kullanımı için Almanya'ya geldikten sonra ehliyet değişimi yapılmalı ve Kod 95 (sürücü sertifikası) alınmalıdır. Ehliyetiniz, 6 ay içinde değiştirilmezse, 15 aylık ek bir süre talep edebilirsiniz. \nDil şartı olarak, profesyonel sürücü için dil şartı yok. Ancak yolcu taşımak isteyen profesyonel sürücüler için temel seviyede dil bilgisi gerekli olabilir. \nProfesyonel şoförlerin Almanya'ya geldiğinde ehliyetini değiştireceğinin garantisi olarak vize ön onay başvuru öncesi Almanca B1 sertifikası hakkı kazanmak üzere dil kursuna ön kayıt belgesi ve ayrıca profesyonel sürücü olarak ehliyetini değiştireceğine (umschreibung - ehliyet değişimi) dair bir ehliyet kursu kaydı yaptırması bir ön şarttır. \nBu şekilde ehliyet geçerliliği sağlanabilir ve yasal sorunlardan kaçınılabilir.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 5.938186883926392,
+      "expected_keywords": [
+        "ehliyet",
+        "geçerlilik",
+        "araç kullanmak",
+        "sürücü belgesi"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanyada-arac-kullanmak-icin-ehliyet-gecerliligi/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "ehliyet",
+          "araç kullanmak"
+        ],
+        "keyword_missed": [
+          "geçerlilik",
+          "sürücü belgesi"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanyada-arac-kullanmak-icin-ehliyet-gecerliligi/"
+        ],
+        "response_length": 1095,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.25
+      },
+      "timestamp": "2025-10-02T10:26:59.148184"
+    },
+    {
+      "question": "18 yaş üstü çocuğumu Almanya'ya nasıl getirebilirim?",
+      "category": "Aile Birleşimi",
+      "difficulty": "hard",
+      "test_type": "family_reunification",
+      "response": "Almanya'da ikamet eden ebeveynlerin, 18 yaşını doldurmuş çocuklarını yanlarına getirme süreçleri, reşit olmayan çocuklara göre farklılıklar gösterir. Aile birleşimi genellikle 18 yaş altı çocuklar için geçerli bir yol olsa da, reşit çocukların Almanya'ya gelişi için başlıca iki ana yol bulunmaktadır: çalışma vizesi veya eğitim vizesi. \nŞartlar:\n1. Çalışma vizesi için çocuğun Almanya'da bir iş teklifi alması gerekir.\n2. Eğitim vizesi için çocuğun Almanya'da bir eğitim kurumunda kabul alınması gerekir.\n3. Her iki durumda da çocuğun Almanca dil bilgisine sahip olması önemlidir.\n4. 16-18 yaş arası çocuklar için, velayet sahibi ebeveynlerden yalnızca biri ile birlikte göç edilmesi durumunda, C1 seviyesinde Almanca dil sertifikası talep edilir.\n5. Dil sertifikasının başvuru anında sunulamaması, başvurunun reddedilmesine neden olabilir.\nBu şartları dikkate alarak, 18 yaş üstü çocuğunuzu Almanya'ya getirmek için en uygun yolu seçebilirsiniz.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 5.290075063705444,
+      "expected_keywords": [
+        "18 yaş üstü",
+        "çocuk",
+        "aile birleşimi",
+        "getirme"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/18-yas-uestue-cocugunuzu-almanyaya-nasil-getirebilirsiniz/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "18 yaş üstü",
+          "çocuk",
+          "aile birleşimi",
+          "getirme"
+        ],
+        "keyword_missed": [],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/18-yas-uestue-cocugunuzu-almanyaya-nasil-getirebilirsiniz/"
+        ],
+        "response_length": 1055,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.5
+      },
+      "timestamp": "2025-10-02T10:27:04.438300"
+    },
+    {
+      "question": "4 yıllık lisans mezunları için Almanya'da hangi fırsatlar var?",
+      "category": "Lisans Mezunları",
+      "difficulty": "medium",
+      "test_type": "opportunity_analysis",
+      "response": "Almanya, 4 yıllık lisans mezunları için önemli fırsatlar sunan bir ülke konumunda. Bu fırsatlar, nitelikli iş gücü arayışında olan ve lisans diplomasına sahip bireylere yöneliktedir. \nŞartlar:\n- En az 4 yıllık üniversite mezunu olmak\n- Mezuniyet alanınızın birincil engel teşkil etmemesi\n- Aile birleşimi imkanları\n- Başlangıçta dil şartının olmaması\nBu avantajlar, Almanya’yı yeni bir yaşam kurmak isteyenler için cazip bir seçenek haline getiriyor. \nAlmanya’nın beyin gücüne duyduğu ihtiyaç, bu yeni yaklaşımın temelinde yatıyor; kas gücü yerine, eğitimli ve donanımlı bireylerin potansiyelinden faydalanmak hedefleniyor. \nSonuç olarak, Almanya, 4 yıllık lisans mezunları için önemli fırsatlar sunuyor.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 5.798293113708496,
+      "expected_keywords": [
+        "4 yıllık lisans",
+        "mezunlar",
+        "fırsatlar",
+        "Almanya"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/4-yillik-lisans-mezunlarina-muejde-almanya-sizi-bekliyor/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "4 yıllık lisans",
+          "mezunlar",
+          "fırsatlar",
+          "Almanya"
+        ],
+        "keyword_missed": [],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/4-yillik-lisans-mezunlarina-muejde-almanya-sizi-bekliyor/"
+        ],
+        "response_length": 812,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.5
+      },
+      "timestamp": "2025-10-02T10:27:10.236611"
+    }
+  ],
+  "test_metadata": {
+    "total_tests": 20,
+    "total_time": 55.69475507736206,
+    "average_response_time": 2.784737753868103,
+    "timestamp": "2025-10-02T10:27:10.236669"
+  }
+}

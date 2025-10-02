@@ -1,0 +1,255 @@
+{
+  "summary": {
+    "overall_stats": {
+      "total_tests": 5,
+      "successful_tests": 2,
+      "success_rate": 0.4,
+      "average_confidence": 0.466,
+      "average_response_time": 1.4352100372314454,
+      "total_time": 7.176509141921997
+    },
+    "category_performance": {
+      "Mavi Kart": {
+        "total": 1,
+        "successful": 1,
+        "avg_confidence": 0.56,
+        "avg_context_quality": 0.9000000000000001,
+        "avg_completeness": 0.7,
+        "success_rate": 1.0
+      },
+      "81A Vizesi": {
+        "total": 1,
+        "successful": 1,
+        "avg_confidence": 0.6,
+        "avg_context_quality": 1.0,
+        "avg_completeness": 1.0,
+        "success_rate": 1.0
+      },
+      "Adres Kaydı": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.4266666666666667,
+        "avg_context_quality": 0.9000000000000001,
+        "avg_completeness": 0.7,
+        "success_rate": 0.0
+      },
+      "Yerleşim İzni": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.4600000000000001,
+        "avg_context_quality": 0.9000000000000001,
+        "avg_completeness": 0.7,
+        "success_rate": 0.0
+      },
+      "Fırsat Kartı": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.2833333333333333,
+        "avg_context_quality": 1.0,
+        "avg_completeness": 0.5,
+        "success_rate": 0.0
+      }
+    },
+    "improvement_suggestions": [
+      "Düşük performans kategorileri: Fırsat Kartı",
+      "URL'ler yanıtlarda eksik - Vectorstore'da URL bilgileri kontrol edin"
+    ]
+  },
+  "detailed_results": [
+    {
+      "question": "AB Mavi Kart için 2025 maaş şartı nedir?",
+      "category": "Mavi Kart",
+      "difficulty": "medium",
+      "test_type": "specific_fact",
+      "response": "AB Mavi Kart (Blaue Karte EU - Mavi Kart) almak için 2025 yılı itibarıyla, yıllık brüt maaşınızın en az 48.300 Euro olması gerekmektedir. Ancak, Almanya’daki bazı “nitelikli iş gücü açığı” (bottleneck professions - nitelikli iş gücü açığı) olan sektörlerde, daha düşük bir maaşla da başvuru yapılabilir. Bu sektörlerde maaş limiti 43.759,80 Euro olarak belirlenmiştir. \nMavi Kart (§18g - Mavi Kart) için 2025 yılı itibarıyla en az 4.025 Euro brüt maaş şartı var. Ancak, §18b (ikamet izni) kapsamında, sektör bazında belirlenen maaş kriterleri geçerlidir ve bu, bazı meslekler için daha düşük bir maaşla Almanya’da çalışma imkanı sunar. \nÖrneğin, bir Ofis Yöneticisi pozisyonu için minimum brüt maaşın 3.440 Euro olması yeterlidir. \nBu bilgiler ışığında, AB Mavi Kart için 2025 maaş şartının, sektöre göre değişkenlik gösterdiği söylenebilir.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 3.0643699169158936,
+      "expected_keywords": [
+        "48.300",
+        "43.759,80",
+        "bottleneck",
+        "nitelikli iş gücü açığı"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanyada-ab-mavi-karti-kriterleri/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "48.300",
+          "43.759,80",
+          "bottleneck",
+          "nitelikli iş gücü açığı"
+        ],
+        "keyword_missed": [],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanyada-ab-mavi-karti-kriterleri/"
+        ],
+        "response_length": 949,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.56,
+        "semantic_matches": [],
+        "context_quality": 0.9000000000000001,
+        "completeness_score": 0.7
+      },
+      "timestamp": "2025-10-02T10:30:18.173656"
+    },
+    {
+      "question": "81a ön onay vizesi ne işe yarar, süreç adımları nelerdir?",
+      "category": "81A Vizesi",
+      "difficulty": "medium",
+      "test_type": "process_explanation",
+      "response": "81a ön onay vizesi, Almanya'da bir iş teklifi almış nitelikli çalışanların vize sürecini hızlandıran bir mekanizmadır. Normalde uzun sürebilen vize işlemleri, bu prosedür sayesinde ortalama bir iki ay içinde tamamlanabilmektedir. \nSüreç adımları şu şekilde ilerlemektedir: \n- Başvurunun onaylanmasıyla başlayan süreç, Almanya Yabancılar Dairesi (Ausländerbehörde) tarafından 81a maddesi kapsamında hızlandırılmış ön onay yazısı (Vorabzustimmung) verilmesiyle devam eder. \n- Müşteri adına vize süreci başlatılır. \n- Müşteri, § 81a hızlandırılmış ön onay vizesine başvurmayı talep ve kabul ettiğini, bu sözleşmeyi imzalayarak beyan eder. \n- Danışman Şirket ve Müşterinin iş sözleşmesi aldığı şirket arasında işbirliği sağlanması karşılıklı mutabakat ve Danışman Şirket ve alt yüklenicilerinin yetkilendirilmesi ile sağlanır. \n- Yetkilendirme için gerekli dokümanlar Danışman Şirket tarafından bilgilendirme yapar. \nBu süreç, nitelikli iş gücü hızlandırılmış vize prosedüründen yararlanmasını sağlar. \nAlmanya İkamet Yasasının (AufenthG) ilgili maddeleri uyarınca, bu prosedürden yararlanmak için belirli şartlar bulunmaktadır. \nSonuç olarak, 81a ön onay vizesi, nitelikli çalışanların vize sürecini hızlandırarak Almanya'da çalışabilmelerine olanak tanır.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 1.0914502143859863,
+      "expected_keywords": [
+        "hızlandırılmış",
+        "81a",
+        "İkamet Yasası",
+        "ön onay"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanya-81a-on-onay/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "hızlandırılmış",
+          "81a",
+          "İkamet Yasası",
+          "ön onay"
+        ],
+        "keyword_missed": [],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanya-81a-on-onay/"
+        ],
+        "response_length": 1361,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.6,
+        "semantic_matches": [],
+        "context_quality": 1.0,
+        "completeness_score": 1.0
+      },
+      "timestamp": "2025-10-02T10:30:19.265222"
+    },
+    {
+      "question": "Almanya'da Anmeldung için gereken belgeler ve süre nedir?",
+      "category": "Adres Kaydı",
+      "difficulty": "easy",
+      "test_type": "specific_fact",
+      "response": "Almanya'da Anmeldung (adres kaydı) için gereken belgeler ve süre, ikamet edilecek yerin belirlenmesi ve必要 belgelerin hazırlanmasıyla başlar. Anmeldung (adres kaydı) için gerekli belgeler arasında Wohnungsgeberbestätigung (WGB) (ev sahibi tarafından verilen ikamet belgesi) bulunur. \nAlmanya’ya taşınan kişiler, iki hafta içinde Anmeldung (adres kaydı) işlemlerini tamamlamalıdır. \nBu süre içinde Anmeldung (adres kaydı) işlemini gerçekleştirmek önemlidir. \nAnmeldung (adres kaydı) belgesi, birçok resmi işlem için temel bir gerekliliktir. \nÖrneğin, banka hesabı açmak, Aufenthaltstitel (ikamet izni) başvurusu veya uzatması ve sağlık sigortası işlemleri için gereklidir. \nBu nedenle, Anmeldung (adres kaydı) işlemini zamanında tamamlamak önemlidir. \nAlmanya'da ikamet kaydını (Anmeldung) gerçekleştirebilmek için kalacağı bölgeyi belirlemekle yükümlüdür. \nBu işlemleri tamamladıktan sonra, Anmeldung (adres kaydı) belgesini alabilirsiniz.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 1.0835981369018555,
+      "expected_keywords": [
+        "14 gün",
+        "Wohnungsgeberbestätigung",
+        "Anmeldung"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanyada-yeni-eve-tasinanlar-icin-adres-kaydi-rehberi-anmeldung/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "Wohnungsgeberbestätigung",
+          "Anmeldung"
+        ],
+        "keyword_missed": [
+          "14 gün"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanyada-yeni-eve-tasinanlar-icin-adres-kaydi-rehberi-anmeldung/"
+        ],
+        "response_length": 1046,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.4266666666666667,
+        "semantic_matches": [],
+        "context_quality": 0.9000000000000001,
+        "completeness_score": 0.7
+      },
+      "timestamp": "2025-10-02T10:30:20.348888"
+    },
+    {
+      "question": "Yerleşim izni almak için tipik koşullar nelerdir?",
+      "category": "Yerleşim İzni",
+      "difficulty": "hard",
+      "test_type": "comprehensive_requirements",
+      "response": "Yerleşim izni (Niederlassungserlaubnis) almak için tipik koşullar, en az beş yıl süreyle oturum iznine (Aufenthaltstitel) sahip olmak, 60 ay boyunca emeklilik sigortası primi ödemiş olmak ve B1 seviyesinde Almanca (Almanca) bilmek gibi şartları içerir. \nBu koşullar, genel olarak Almanya’da sınırsız oturum izni alabilmek için aranan şartlardır. \nAncak, nitelikli profesyoneller için İkamet Yasası’nın §18c maddesi, çok daha avantajlı ve hızlandırılmış bir süreç sunmaktadır. \nYerleşim izni almak için gereken koşullar arasında, oturum izni süresinin tamamlanması, emeklilik sigortası primlerinin ödenmesi ve Almanca dil seviyesinin belirlenen düzeyde olması yer alır. \nBu koşulların yerine getirilmesi, sınırsız oturum izni almak için gereken temel adımları oluşturur. \nAyrıca, Anmeldung (adres kaydı) belgesi, banka hesabı açmak, oturum izni başvurusu veya uzatması ve sağlık sigortası işlemleri için de gereklidir. \nBu belgelerin ve koşulların tamamlanması, yerleşim izni almak için gereken işlemlerin doğru ve eksiksiz bir şekilde yerine getirilmesini sağlar. \nSonuç olarak, yerleşim izni almak için gereken koşullar, belirli bir süre veya amaca bağlı olmayan, kalıcı bir ikamet statüsü elde etmek için gerekli adımları içerir.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 1.1636309623718262,
+      "expected_keywords": [
+        "Niederlassungserlaubnis",
+        "B1",
+        "36 ay",
+        "emeklilik sigortası"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanyada-yerlesim-izni-nasil-alinir-ve-sartlari-nelerdir/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "Niederlassungserlaubnis",
+          "B1",
+          "emeklilik sigortası"
+        ],
+        "keyword_missed": [
+          "36 ay"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanyada-yerlesim-izni-nasil-alinir-ve-sartlari-nelerdir/"
+        ],
+        "response_length": 1339,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.4600000000000001,
+        "semantic_matches": [],
+        "context_quality": 0.9000000000000001,
+        "completeness_score": 0.7
+      },
+      "timestamp": "2025-10-02T10:30:21.512605"
+    },
+    {
+      "question": "Fırsat Kartı (Chancenkarte) puan sistemi nasıl çalışır?",
+      "category": "Fırsat Kartı",
+      "difficulty": "hard",
+      "test_type": "system_explanation",
+      "response": "Fırsat Kartı (Chancenkarte) puan sistemi, nitelikli bireylerin Almanya'ya gelip iş aramalarına olanak tanıyan bir sistemdir. Bu sistem, başvuru sahiplerinin niteliklerini adil ve şeffaf bir şekilde değerlendirmek amacıyla uygulanır. Başvurunun kabul edilebilmesi için en az 6 puan toplamak gereklidir. Puanlar aşağıdaki kriterlere göre verilir:\n\nPuan Sistemi:\n- Dil becerileri\n- Mesleki deneyim\n- Yaş\n- Almanya ile bağlantılar\n\nBu kriterlere göre puan toplanır ve yeterli puanı alan kişiler, bir yıla kadar geçerli Fırsat Kartı (Chancenkarte) ile Almanya'da iş arayabilir ve haftada 20 saate kadar deneme amaçlı çalışabilirler. Fırsat Kartı başvurusu, puan bazlı bir değerlendirme sistemine dayanır ve temel kriterlerin dışında kalan adaylar, puan sistemi üzerinden uygunluklarını kanıtlayabilir. Böylece, Fırsat Kartı puan sistemi, nitelikli bireylerin Almanya'da iş bulma şansını artırmayı hedefler.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 0.773000955581665,
+      "expected_keywords": [
+        "§20a",
+        "puan",
+        "mesleki yeterlilik"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/firsat-karti-chancenkarte-ile-almanyada-is-arama-puan-sistemi-nasil-calisir/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "puan"
+        ],
+        "keyword_missed": [
+          "§20a",
+          "mesleki yeterlilik"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/firsat-karti-chancenkarte-ile-almanyada-is-arama-puan-sistemi-nasil-calisir/"
+        ],
+        "response_length": 1009,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.2833333333333333,
+        "semantic_matches": [],
+        "context_quality": 1.0,
+        "completeness_score": 0.5
+      },
+      "timestamp": "2025-10-02T10:30:22.285672"
+    }
+  ],
+  "test_metadata": {
+    "total_tests": 5,
+    "total_time": 7.176509141921997,
+    "average_response_time": 1.4353018283843995,
+    "timestamp": "2025-10-02T10:30:22.285697"
+  }
+}

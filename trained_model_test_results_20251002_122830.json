@@ -1,0 +1,59 @@
+{
+  "test_info": {
+    "timestamp": "20251002_122830",
+    "model_path": "./trained_rag_lora_model",
+    "total_tests": 5
+  },
+  "results": [
+    {
+      "question": "AB Mavi Kart için 2025 maaş şartı nedir?",
+      "trained_model_response": "AB Mavi Kart için 2025 maaş şartı nedir?A",
+      "rag_response": "AB Mavi Kart (Blaue Karte EU) için 2025 yılı itibarıyla belirlenen maaş şartı, yıllık brüt maaşın en az 48.300 Euro olması gerekmektedir. Ancak, bazı sektörlerde daha düşük bir maaşla da başvuru yapılabilir. \nŞartlar:\n- Yıllık brüt maaşın en az 48.300 Euro olması gerekmektedir.\n- Almanya’daki bazı “nitelikli iş gücü açığı” (bottleneck professions) olan sektörlerde, daha düşük bir maaşla da başvuru yapılabilir, bu sektörlerde maaş limiti 43.759,80 Euro olarak belirlenmiştir.\n- §18b kapsamında, sektör bazında belirlenen maaş kriterleri geçerlidir ve bu, bazı meslekler için daha düşük bir maaşla Almanya’da çalışma imkanı sunar.\n- Örneğin, bir Ofis Yöneticisi pozisyonu için minimum brüt maaşın 3.440 Euro olması yeterlidir.\nBu şartlar, AB Mavi Kart başvurularında dikkate alınır ve başvurular bu koşullara göre değerlendirilir.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "comparison": {
+        "trained_model_length": 41,
+        "rag_length": 940,
+        "both_working": true
+      }
+    },
+    {
+      "question": "81A ön onay vizesi nedir?",
+      "trained_model_response": "81A ön onay vizesi nedir?81B :D",
+      "rag_response": "81a ön onay vizesi, Almanya İkamet Yasasının (AufenthG - İkamet Yasası) §81a maddesi kapsamında verilen bir vize türüdür. Bu vize, nitelikli iş gücü için hızlandırılmış vize prosedüründen yararlanmak amacıyla verilir. Müşteri, §81a hızlandırılmış ön onay vizesine başvurmayı talep ve kabul ettiğini, Danışmanlık Hizmet Sözleşmesini imzalayarak beyan eder. \nAlmanya Yabancılar Dairesi (Ausländerbehörde - Yabancılar Dairesi) tarafından 81a maddesi kapsamında hızlandırılmış ön onay yazısı (Vorabzustimmung - Ön Onay) verildikten sonra, Müşteri adına vize süreci başlatılır. \nBu vize, özellikle §16a, §16d, §18a, §18b, §18c fıkra 3, §18g ve §19c fıkra 1,2 maddeleri uyarınca nitelikli iş gücü için hızlandırılmış vize prosedüründen yararlanmak amacıyla verilir. \n81a ön onay vizesi, müşterilerin vize sürecini hızlandırarak Almanya'ya daha hızlı bir şekilde giriş yapmalarını sağlar. \nBu vize türü, ilgili yasaların ve düzenlemelerin kapsamında verilir ve müşterilerin belirli şartları karşılamaları gerekir. \nBu nedenle, 81a ön onay vizesi, nitelikli iş gücü için önemli bir vize türüdür. \nSonuç olarak, 81a ön onay vizesi, Almanya'ya giriş yapmak isteyen nitelikli iş gücü için önemli bir seçenek sunar.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "comparison": {
+        "trained_model_length": 31,
+        "rag_length": 1311,
+        "both_working": true
+      }
+    },
+    {
+      "question": "Anmeldung nedir ve neden önemli?",
+      "trained_model_response": "Anmeldung nedir ve neden önemli?Gern geschehen.",
+      "rag_response": "Anmeldung (adres kaydı), Almanya'da yasal olarak yaşadığınızı kanıtlayan ilk ve en önemli adımdır. Bu işlem, taşınma后的 2 hafta içinde yeni adresinizi ilgili belediyenin vatandaşlık ofisine (Bürgeramt/Einwohnermeldeamt) kaydettirmeniz yasal bir zorunluluktur. Anmeldung için ev sahibinizden alacağınız \"Wohnungsgeberbestätigung (ev sahibi onay belgesi)\" adlı belgeye ihtiyacınız olacak. \nAnmeldung'un önemi aşağıdaki nedenlerle açıklanabilir:\n- Banka hesabı açmak için kullanılır.\n- Sigorta başvurusu yapmak için kullanılır.\n- Bazı telefon hatlarını almak için bile kullanılır.\n- Sağlık sigortası kaydı ve hizmetlerinden yararlanmak için gereklidir.\n- İnternet, telefon ve elektrik gibi abonelikler için adres kanıtı olarak istenir.\n- Ehliyet, araç kaydı gibi birçok farklı işlemde bu belgeye ihtiyaç duyulabilir.\nBu nedenle, Anmeldung belgesi almak çok önemlidir ve birçok resmi işlemde gereklidir.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "comparison": {
+        "trained_model_length": 47,
+        "rag_length": 1006,
+        "both_working": true
+      }
+    },
+    {
+      "question": "Almanya'da çalışma izni nasıl alınır?",
+      "trained_model_response": "Almanya'da çalışma izni nasıl alınır??",
+      "rag_response": "Almanya'da çalışma izni almak için öncelikle niteliksiz işçi olarak hangi mesleklere sahip olduğunuzun belirlenmesi gerekiyor. \"Niteliksiz İşçi\" terimi, genellikle belirli bir mesleki eğitim veya uzmanlık gerektirmeyen işleri ifade ediyor. Almanya'da nitelikli çalışan eksikliği nedeniyle birçok meslek grubuna ihtiyaç duyuluyor. \n\nAlmanya'ya iltica başvurusunda bulunan individuals için çalışma yolu ile oturum izni almak mümkün. Ancak, bu sürece nereden başlanacağı ve değerli iş sözleşmesine nasıl ulaşılacağı önemli sorular. \n\nŞartlar:\n1. Niteliksiz işçi olarak hangi mesleklere sahip olduğunuzu belirleyin.\n2. Almanya'da yaşanan nitelikli çalışan eksikliği nedeniyle hangi meslek gruplarına ihtiyaç duyulduğunu araştırın.\n3. Çalışma vizesi almak için gerekli adımları takip edin.\n4. İş sözleşmesine ulaşmak için gerekli başvuruları yapın.\n5. İltica başvurusu sırasında çalışma yolu ile oturum izni almak için gereken prosedürü öğrenin.\n\nAlmanya'da çalışma izni almak için bu adımları takip etmek ve gerekli şartları yerine getirmek gerekiyor.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "comparison": {
+        "trained_model_length": 38,
+        "rag_length": 1155,
+        "both_working": true
+      }
+    },
+    {
+      "question": "Mavi Kart başvuru süreci nasıl işler?",
+      "trained_model_response": "Mavi Kart başvuru süreci nasıl işler?Aa, a",
+      "rag_response": "Mavi Kart başvuru süreci, ZAB'a (Zentraler Auslands- und Fachvermittlungsdienst - Merkez Yurt Dışı ve Meslek Danışmanlık Servisi) dijital ortamda başvuru yapılmasıyla başlar. Bu sürecin süresi, sunulan belgelerin eksiksiz olmasına bağlı olarak birkaç ay sürebilmektedir. \n\nAB Mavi Kart başvurusunda bulunacak adaylar için, geçerli bir iş sözleşmesinin sunulması halinde, Denklik Belgesi işlem süresi 2-3 haftaya indirilmektedir. \n\nMaaş şartları da bu süreçte önemli bir rol oynamaktadır. 2025 yılı itibarıyla, AB Mavi Kartı almak için yıllık brüt maaşın en az 48.300 Euro olması gerekmektedir. Ancak, Almanya'daki bazı \"nitelikli iş gücü açığı\" (bottleneck professions) olan sektörlerde, daha düşük bir maaşla da başvuru yapılabilir. Bu sektörlerde maaş limiti 43.759,80 Euro olarak belirlenmiştir.\n\nAB Mavi Kart sahipleri, nitelikli göçmenler arasında en avantajlı koşullara sahip olan gruptur ve onlar için süreç daha da hızlı işlemektedir. Mavi Kart için standart süreç 27 ay sonundadır.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "comparison": {
+        "trained_model_length": 42,
+        "rag_length": 1098,
+        "both_working": true
+      }
+    }
+  ]
+}

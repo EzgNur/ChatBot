@@ -1,0 +1,281 @@
+{
+  "summary": {
+    "overall_stats": {
+      "total_tests": 5,
+      "successful_tests": 0,
+      "success_rate": 0.0,
+      "average_confidence": 0.19166666666666665,
+      "average_response_time": 1.3832820415496827,
+      "total_time": 6.9165802001953125
+    },
+    "category_performance": {
+      "Mavi Kart": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.0,
+        "success_rate": 0.0
+      },
+      "81A Vizesi": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.375,
+        "success_rate": 0.0
+      },
+      "Adres Kaydı": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.16666666666666666,
+        "success_rate": 0.0
+      },
+      "Yerleşim İzni": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.25,
+        "success_rate": 0.0
+      },
+      "Fırsat Kartı": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.16666666666666666,
+        "success_rate": 0.0
+      }
+    },
+    "difficulty_performance": {
+      "medium": {
+        "total": 2,
+        "successful": 0,
+        "avg_confidence": 0.1875,
+        "success_rate": 0.0
+      },
+      "easy": {
+        "total": 1,
+        "successful": 0,
+        "avg_confidence": 0.16666666666666666,
+        "success_rate": 0.0
+      },
+      "hard": {
+        "total": 2,
+        "successful": 0,
+        "avg_confidence": 0.20833333333333331,
+        "success_rate": 0.0
+      }
+    },
+    "best_performing_tests": [
+      {
+        "question": "81a ön onay vizesi ne işe yarar, süreç adımları nelerdir?",
+        "category": "81A Vizesi",
+        "confidence_score": 0.375
+      },
+      {
+        "question": "Yerleşim izni almak için tipik koşullar nelerdir?",
+        "category": "Yerleşim İzni",
+        "confidence_score": 0.25
+      },
+      {
+        "question": "Almanya'da Anmeldung için gereken belgeler ve süre nedir?",
+        "category": "Adres Kaydı",
+        "confidence_score": 0.16666666666666666
+      }
+    ],
+    "worst_performing_tests": [
+      {
+        "question": "AB Mavi Kart için 2025 maaş şartı nedir?",
+        "category": "Mavi Kart",
+        "confidence_score": 0.0
+      },
+      {
+        "question": "Almanya'da Anmeldung için gereken belgeler ve süre nedir?",
+        "category": "Adres Kaydı",
+        "confidence_score": 0.16666666666666666
+      },
+      {
+        "question": "Fırsat Kartı (Chancenkarte) puan sistemi nasıl çalışır?",
+        "category": "Fırsat Kartı",
+        "confidence_score": 0.16666666666666666
+      }
+    ]
+  },
+  "detailed_results": [
+    {
+      "question": "AB Mavi Kart için 2025 maaş şartı nedir?",
+      "category": "Mavi Kart",
+      "difficulty": "medium",
+      "test_type": "specific_fact",
+      "response": "AB Mavi Kart (Blaue Karte EU) sahipleri, nitelikli göçmenler arasında en avantajlı koşullara sahip olan gruptur. 2025 yılı itibarıyla, Mavi Kart (§18g) için en az 4.025 Euro brüt maaş şartı vardır. Ancak, §18b kapsamında, sektör bazında belirlenen maaş kriterleri geçerlidir ve bu, bazı meslekler için daha düşük bir maaşla Almanya’da çalışma imkanı sunar. \nÖrneğin, bir Ofis Yöneticisi pozisyonu için minimum brüt maaşın 3.440 Euro olması yeterlidir. \nMavi Kart sahipleri, belirli şartları sağladıklarında süresiz oturum hakkı elde etmede avantajlıdırlar. \nGenel olarak 33 ay çalıştıktan sonra, eğer B1 seviyesinde Almanca bilgisine sahiplerse bu süre 21 aya kadar inecebilmektedir. \nİkamet yasası 18b’den oturum izni alanlar süresiz oturuma geçebilmeleri için 36 ay çalışmaları gerekmektedir. \nBu şartlar, Mavi Kart sahiplerinin süresiz oturum hakkı elde etme sürecini etkiler. \nMavi Kart için gereken minimum maaş eşikleri, özellikle “darboğaz meslekler” (Engpassberufe) olarak tanımlanan ve yüksek talep gören mühendislik, IT, sağlık gibi alanlarda çalışanlar için daha da aşağı çekilmiştir. \nYeni başlayanlar için de özel maaş eşikleri belirlenmiştir. \nBu bilgiler, AB Mavi Kart sahiplerinin çalışma ve oturum şartlarını comprende etmelerine yardımcı olur.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 3.09773588180542,
+      "expected_keywords": [
+        "48.300",
+        "43.759,80",
+        "bottleneck",
+        "nitelikli iş gücü açığı"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanyada-ab-mavi-karti-kriterleri/"
+      ],
+      "analysis": {
+        "keyword_matches": [],
+        "keyword_missed": [
+          "48.300",
+          "43.759,80",
+          "bottleneck",
+          "nitelikli iş gücü açığı"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanyada-ab-mavi-karti-kriterleri/"
+        ],
+        "response_length": 1369,
+        "has_specific_info": false,
+        "has_urls": false,
+        "confidence_score": 0.0
+      },
+      "timestamp": "2025-10-02T10:25:46.766160"
+    },
+    {
+      "question": "81a ön onay vizesi ne işe yarar, süreç adımları nelerdir?",
+      "category": "81A Vizesi",
+      "difficulty": "medium",
+      "test_type": "process_explanation",
+      "response": "81a ön onay vizesi, Almanya'da bir iş teklifi almış nitelikli çalışanların vize sürecini hızlandıran bir mekanizmadır. Bu prosedür sayesinde normalde çok uzun sürebilen vize işlemleri, ortalama bir iki ay içinde tamamlanabilmektedir. Müşteri, 81a hızlandırılmış ön onay vizesine talip olduğunu, sözleşmeyi imzalayarak talep etmiş sayılır. \n\nSüreç adımları şu şekilde ilerler:\n- Müşteri ve Danışman Şirket arasında işbirliği sağlanır.\n- Müşteri, iş sözleşmesi aldığı şirket arasında mutabakat sağlanır.\n- Danışman Şirket ve alt yüklenicilerinin yetkilendirilmesi sağlanır.\n- Yetkilendirme için gerekli dokümanlar Danışman Şirket tarafından bilgilendirme yapılır.\n\nOnay süreci ise dış temsilcilik, başvuruyu ve ekindeki İş İlişkisi Beyanı Formu'nu ilgili Yabancılar Dairesi'ne iletir. Yabancılar Dairesi de genellikle Federal İş Ajansı'ndan bir onay talep eder. Federal İş Ajansı'nın onayı, vize sürecinin olumlu sonuçlanması için en önemli adımlardan biridir. \nBu bilgiler ışığında, 81a ön onay vizesi, nitelikli çalışanların Almanya'da iş bulmalarını kolaylaştıran bir vize türüdür.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 1.1037280559539795,
+      "expected_keywords": [
+        "hızlandırılmış",
+        "81a",
+        "İkamet Yasası",
+        "ön onay"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanya-81a-on-onay/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "hızlandırılmış",
+          "81a",
+          "ön onay"
+        ],
+        "keyword_missed": [
+          "İkamet Yasası"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanya-81a-on-onay/"
+        ],
+        "response_length": 1190,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.375
+      },
+      "timestamp": "2025-10-02T10:25:47.869930"
+    },
+    {
+      "question": "Almanya'da Anmeldung için gereken belgeler ve süre nedir?",
+      "category": "Adres Kaydı",
+      "difficulty": "easy",
+      "test_type": "specific_fact",
+      "response": "Almanya'da Anmeldung (adres kaydı) için gereken belgeler ve süre hakkında bilgi edinmek önemlidir. Anmeldung, Almanya’da yaşadığınız adresi yetkili makamlara bildirme işlemidir. Bu işlem yasal bir zorunluluktur ve Almanya’ya taşındıktan sonraki 2 hafta içinde gerçekleştirilmelidir. \nAnmeldung belgesi (Anmeldebestätigung veya Meldebescheinigung), Almanya’daki birçok resmi işlem için temel bir gerekliliktir. \nAnmeldung için gerekli belgelerin listesi bağlamda verilmemiştir. \nBu nedenle Anmeldung için gereken belgeler ve süre hakkında daha fazla bilgi edinmek için ilgili makamlarla iletişime geçmek gerekir. \nAnmeldung işleminin zamanında yapılması önemlidir. \nBu işlem yapıldıktan sonra Anmeldung belgesi (Anmeldebestätigung veya Meldebescheinigung) alınır. \nBu belge birçok resmi işlem için gereklidir. \nAnmeldung işleminin yasal bir zorunluluk olduğunu unutmamak gerekir.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 0.9932920932769775,
+      "expected_keywords": [
+        "14 gün",
+        "Wohnungsgeberbestätigung",
+        "Anmeldung"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanyada-yeni-eve-tasinanlar-icin-adres-kaydi-rehberi-anmeldung/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "Anmeldung"
+        ],
+        "keyword_missed": [
+          "14 gün",
+          "Wohnungsgeberbestätigung"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanyada-yeni-eve-tasinanlar-icin-adres-kaydi-rehberi-anmeldung/"
+        ],
+        "response_length": 986,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.16666666666666666
+      },
+      "timestamp": "2025-10-02T10:25:48.863275"
+    },
+    {
+      "question": "Yerleşim izni almak için tipik koşullar nelerdir?",
+      "category": "Yerleşim İzni",
+      "difficulty": "hard",
+      "test_type": "comprehensive_requirements",
+      "response": "Yerleşim izni almak için tipik koşullar, AB Mavi Kart sahipleri için belirlenmiştir. Bu koşullar arasında en az 27 aydır nitelikli bir işte çalışıyor ve emeklilik sigortasına katkı yapıyor olmak yer alır. Ayrıca, Almanca A1 seviyesinde dil bilgisi (Eğer B1 seviyesinde iseniz bu süre 21 aya düşer) ve \"Leben in Deutschland\" testi ile temel bilgi belgesi zorunludur. \nŞartlar:\n- En az 27 aydır nitelikli bir işte çalışıyor ve emeklilik sigortasına katkı yapıyor olmak\n- Almanca A1 seviyesinde dil bilgisi\n- \"Leben in Deutschland\" testi ile temel bilgi belgesi\n- Yeterli konut ve geçim sağlama şartı\nBu koşullar, AB Mavi Kart sahipleri için yerleşim izni sürecini daha kısa ve kolay hale getirmektedir. Yerleşim izni almak, kalıcı bir ikamet statüsü sağlar ve çeşitli avantajlar sunar.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 0.8227612972259521,
+      "expected_keywords": [
+        "Niederlassungserlaubnis",
+        "B1",
+        "36 ay",
+        "emeklilik sigortası"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/almanyada-yerlesim-izni-nasil-alinir-ve-sartlari-nelerdir/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "B1",
+          "emeklilik sigortası"
+        ],
+        "keyword_missed": [
+          "Niederlassungserlaubnis",
+          "36 ay"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/almanyada-yerlesim-izni-nasil-alinir-ve-sartlari-nelerdir/"
+        ],
+        "response_length": 891,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.25
+      },
+      "timestamp": "2025-10-02T10:25:49.686062"
+    },
+    {
+      "question": "Fırsat Kartı (Chancenkarte) puan sistemi nasıl çalışır?",
+      "category": "Fırsat Kartı",
+      "difficulty": "hard",
+      "test_type": "system_explanation",
+      "response": "Fırsat Kartı (Chancenkarte) puan sistemi, başvuru sahiplerinin niteliklerini adil ve şeffaf bir şekilde değerlendirmek amacıyla uygulanır. Bu sistem, temel kriterlerin dışında kalan adayların uygunluklarını kanıtlayabilmesi için tasarlanmıştır. Başvurunun kabul edilebilmesi için en az 6 puan toplamak gereklidir. Puanlar, belirli kriterlere göre verilir. \nŞartlar:\n- Denklik Tamamlama Süreci (Anpassungsqualifizierung) \nPuan sistemi üzerinden uygunluklarını kanıtlayabilen adaylar, Fırsat Kartı (Chancenkarte) başvurusunda bulunabilir. Fırsat Kartı (Chancenkarte) ile Almanya’da iş arama imkanına sahip olmak için, adayların puan sistemini iyi anlamaları ve buna göre başvurularını hazırlamaları önemlidir. \nFırsat Kartı (Chancenkarte) puan sistemi, adil ve şeffaf bir değerlendirme yöntemi sunar.\n\n---\n\n📚 Bütün bilgiler web sitemizden alınmıştır. Bu konuda danışmanlık için şirketimize başvurabilirsiniz.",
+      "response_time": 0.898892879486084,
+      "expected_keywords": [
+        "§20a",
+        "puan",
+        "mesleki yeterlilik"
+      ],
+      "expected_urls": [
+        "https://alternativkraft.com/tr/firsat-karti-chancenkarte-ile-almanyada-is-arama-puan-sistemi-nasil-calisir/"
+      ],
+      "analysis": {
+        "keyword_matches": [
+          "puan"
+        ],
+        "keyword_missed": [
+          "§20a",
+          "mesleki yeterlilik"
+        ],
+        "url_matches": [],
+        "url_missed": [
+          "https://alternativkraft.com/tr/firsat-karti-chancenkarte-ile-almanyada-is-arama-puan-sistemi-nasil-calisir/"
+        ],
+        "response_length": 906,
+        "has_specific_info": true,
+        "has_urls": false,
+        "confidence_score": 0.16666666666666666
+      },
+      "timestamp": "2025-10-02T10:25:50.584976"
+    }
+  ],
+  "test_metadata": {
+    "total_tests": 5,
+    "total_time": 6.9165802001953125,
+    "average_response_time": 1.3833160400390625,
+    "timestamp": "2025-10-02T10:25:50.585006"
+  }
+}
